@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="app">
-<header class="top"><div class="brand"><div><h1>SSC PYQ</h1><div class="small">Actual SSC previous-year questions • multi-subject • topic & exam wise</div></div><div><button class="btn" id="homeBtn">Home</button></div></div><div id="status" class="small" style="margin-top:7px"></div></header>
+<header class="top"><div class="brand"><div><h1>SSC PYQ</h1><div class="small">Actual SSC previous-year questions • multi-subject • topic & exam wise</div></div><div><button class="btn" id="homeBtn">Home</button></div></div><div id="status" class="small" style="margin-top:7px"></div><div id="authBar" class="small" style="margin-top:7px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"></div></header>
 
 <section id="home" class="card">
 <h2 style="margin-top:0">Choose a subject</h2>
@@ -69,32 +69,98 @@
 let BANKS={}, currentSubject=null, pool=[], session=[], pos=0, answered=false, score=0;
 const KEY='ssc_pyq_progress_v1';
 let state=JSON.parse(localStorage.getItem(KEY)||'{"q":{},"bookmarks":[],"sessions":{}}');
-function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+let isApplyingRemote=false;
+function migrateLegacyKeys(){
+  // Older versions keyed state.q/bookmarks by bare numeric question id.
+  // Give every key a "subject:id" identity so future subjects can't collide.
+  let changed=false;
+  const q={};
+  for(const k in state.q){
+    const nk=/^\d+$/.test(k)?('geography:'+k):k;
+    q[nk]=state.q[k];
+    if(nk!==k)changed=true;
+  }
+  state.q=q;
+  state.bookmarks=(state.bookmarks||[]).map(b=>{
+    if(typeof b==='number'||/^\d+$/.test(String(b))){changed=true;return 'geography:'+b}
+    return b;
+  });
+  state.sessions=state.sessions||{};
+  if(changed)localStorage.setItem(KEY,JSON.stringify(state));
+}
+migrateLegacyKeys();
+function save(){
+  localStorage.setItem(KEY,JSON.stringify(state));
+  if(!isApplyingRemote && window.CloudSync)window.CloudSync.queueSave(state);
+}
 function qs(id){return document.getElementById(id)}
-function qstate(id){return state.q[id]||(state.q[id]={attempted:false,wrong:false,correct:false,attempts:0})}
+function qkeyOf(q){return (q._sid||'geography')+':'+q.id}
+function qstate(q){let k=qkeyOf(q);return state.q[k]||(state.q[k]={attempted:false,wrong:false,correct:false,attempts:0})}
 function allQ(){return Object.values(BANKS).flatMap(b=>b.questions||[])}
+function getLocalState(){return state}
+function applyRemoteState(data){
+  if(!data)return;
+  isApplyingRemote=true;
+  state.q=data.q||{};
+  state.bookmarks=data.bookmarks||[];
+  state.sessions=data.sessions||{};
+  localStorage.setItem(KEY,JSON.stringify(state));
+  isApplyingRemote=false;
+  if(!qs('home').classList.contains('hidden'))renderHome();
+  else if(!qs('quiz').classList.contains('hidden')&&session[pos]){
+    qs('bookmarkBtn').textContent=state.bookmarks.includes(qkeyOf(session[pos]))?'★ Bookmarked':'☆ Bookmark';
+  }
+}
+function setAuthUI(signedIn,user){
+  const el=qs('authBar');if(!el)return;
+  if(signedIn){
+    const name=esc((user&&(user.displayName||user.email))||'Signed in');
+    el.innerHTML=`<span>👤 ${name}</span><button class="btn" id="signOutBtn" style="padding:6px 10px">Sign out</button><span id="syncStatusText" class="small"></span>`;
+    qs('signOutBtn').onclick=()=>window.CloudSync&&window.CloudSync.signOut();
+  }else{
+    el.innerHTML=`<button class="btn" id="signInBtn" style="padding:6px 10px">Sign in with Google</button><span class="small">Sign in to sync progress across devices</span><span id="syncStatusText" class="small"></span>`;
+    qs('signInBtn').onclick=()=>window.CloudSync&&window.CloudSync.signIn();
+  }
+}
+function setSyncStatus(text){const el=qs('syncStatusText');if(el)el.textContent=text||''}
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function show(id){['home','browse','quizSetup','quiz','result'].forEach(x=>qs(x).classList.toggle('hidden',x!==id))}
 function goHome(){show('home');renderHome()}
-function stats(){let a=allQ().map(q=>qstate(q.id));return {attempted:a.filter(x=>x.attempted).length,wrong:a.filter(x=>x.wrong).length,bookmarks:state.bookmarks.length,unattempted:a.filter(x=>!x.attempted).length}}
+function stats(){let a=allQ().map(q=>qstate(q));return {attempted:a.filter(x=>x.attempted).length,wrong:a.filter(x=>x.wrong).length,bookmarks:state.bookmarks.length,unattempted:a.filter(x=>!x.attempted).length}}
 function renderHome(){let s=stats();qs('stats').innerHTML=`<div class=stat><b>${s.attempted}</b>Attempted</div><div class=stat><b>${s.unattempted}</b>Unattempted</div><div class=stat><b>${s.wrong}</b>Wrong</div><div class=stat><b>${s.bookmarks}</b>Bookmarks</div>`;qs('subjects').innerHTML=Object.values(BANKS).map((b,i)=>`<button class=tile onclick="chooseSubject('${esc(b.id)}')"><strong>${esc(b.name)}</strong><span>${b.questions.length} questions</span></button>`).join('')}
 function chooseSubject(id){currentSubject=BANKS[id];qs('browseTitle').textContent=currentSubject.name+' — Choose Practice Mode';qs('topicArea').classList.add('hidden');qs('examArea').classList.add('hidden');show('browse')}
 function backBrowse(){show('browse')}
 function setup(mode,filter){let qsx=currentSubject.questions.filter(filter||(()=>true));pool=qsx;qs('setupTitle').textContent=currentSubject.name+' — '+mode;qs('startQuiz').onclick=()=>begin(qsx);qs('continueQuiz').onclick=()=>begin(qsx,true);show('quizSetup')}
-function begin(source,continueMode=false){let un=source.filter(q=>!qstate(q.id).attempted);let base=continueMode&&un.length?un:source;let n=qs('count').value==='all'?base.length:Number(qs('count').value);if(n<base.length&&qs('order').value==='random')base=[...base].sort(()=>Math.random()-.5);session=base.slice(0,n);pos=0;score=0;answered=false;show('quiz');renderQ()}
-function renderQ(){let q=session[pos], st=qstate(q.id);answered=false;qs('quizMeta').innerHTML=`<div style="width:100%;background:#f3eef8;border:1px solid #ddd3e5;border-radius:14px;padding:11px 13px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800">Original exam source</div><div style="font-size:14px;font-weight:750;margin-top:3px;line-height:1.4">${esc(q.exam||'Exam information not available')}</div>${q.topic?`<div class="small" style="margin-top:5px">Topic: ${esc(q.topic)}</div>`:''}</div>`;qs('qText').textContent=q.question;qs('options').innerHTML=(q.options||[]).map((o,i)=>`<button class=option onclick="answer(${i})"><span class=letter>${'ABCD'[i]}.</span><span>${esc(o)}</span></button>`).join('');qs('feedback').innerHTML='';qs('bookmarkBtn').textContent=state.bookmarks.includes(q.id)?'★ Bookmarked':'☆ Bookmark';qs('bookmarkBtn').onclick=()=>{let i=state.bookmarks.indexOf(q.id);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(q.id);save();renderQ()};qs('prevBtn').disabled=pos===0;qs('nextBtn').textContent=pos===session.length-1?'Finish':'Next →';qs('progressText').textContent=`Question ${pos+1} of ${session.length}`;qs('progressBar').style.width=((pos+1)/session.length*100)+'%'}
-function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q.id),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;if(correct){st.correct=true;score++;}else st.wrong=true;save();document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;b.classList.add('disabled');if(j===i)b.classList.add(correct?'correct':'wrong');if(['a','b','c','d'][j]===String(q.answer).toLowerCase())b.classList.add('correct')});qs('feedback').innerHTML=`<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'✓ Correct':'✗ Incorrect'}</strong><div>Correct answer: <b>${esc(q.answer||'Not available')}</b></div>${q.explanation?`<div style="margin-top:7px">${esc(q.explanation)}</div>`:''}</div>`}
+function begin(source,continueMode=false){let un=source.filter(q=>!qstate(q).attempted);let base=continueMode&&un.length?un:source;let n=qs('count').value==='all'?base.length:Number(qs('count').value);if(n<base.length&&qs('order').value==='random')base=[...base].sort(()=>Math.random()-.5);session=base.slice(0,n);pos=0;score=0;answered=false;show('quiz');renderQ()}
+function renderQ(){let q=session[pos], st=qstate(q);answered=false;qs('quizMeta').innerHTML=`<div style="width:100%;background:#f3eef8;border:1px solid #ddd3e5;border-radius:14px;padding:11px 13px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800">Original exam source</div><div style="font-size:14px;font-weight:750;margin-top:3px;line-height:1.4">${esc(q.exam||'Exam information not available')}</div>${q.topic?`<div class="small" style="margin-top:5px">Topic: ${esc(q.topic)}</div>`:''}</div>`;qs('qText').textContent=q.question;qs('options').innerHTML=(q.options||[]).map((o,i)=>`<button class=option onclick="answer(${i})"><span class=letter>${'ABCD'[i]}.</span><span>${esc(o)}</span></button>`).join('');qs('feedback').innerHTML='';qs('bookmarkBtn').textContent=state.bookmarks.includes(qkeyOf(q))?'★ Bookmarked':'☆ Bookmark';qs('bookmarkBtn').onclick=()=>{let k=qkeyOf(q),i=state.bookmarks.indexOf(k);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(k);save();renderQ()};qs('prevBtn').disabled=pos===0;qs('nextBtn').textContent=pos===session.length-1?'Finish':'Next →';qs('progressText').textContent=`Question ${pos+1} of ${session.length}`;qs('progressBar').style.width=((pos+1)/session.length*100)+'%';saveSession()}
+function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;if(correct){st.correct=true;score++;}else st.wrong=true;save();document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;b.classList.add('disabled');if(j===i)b.classList.add(correct?'correct':'wrong');if(['a','b','c','d'][j]===String(q.answer).toLowerCase())b.classList.add('correct')});qs('feedback').innerHTML=`<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'✓ Correct':'✗ Incorrect'}</strong><div>Correct answer: <b>${esc(q.answer||'Not available')}</b></div>${q.explanation?`<div style="margin-top:7px">${esc(q.explanation)}</div>`:''}</div>`}
 qs('nextBtn').onclick=()=>{if(pos<session.length-1){pos++;renderQ()}else finish()};qs('prevBtn').onclick=()=>{if(pos>0){pos--;renderQ()}};
-function finish(){show('result');qs('result').innerHTML=`<div class=small>Quiz complete</div><div style="font-size:44px;font-weight:800;margin:8px">${score}/${session.length}</div><p>You can return to the subject, practice wrong questions, or start another 50-question set.</p><button class="btn primary" onclick="goHome()">Back to Home</button>`}
-function showPractice(kind){let source=allQ().filter(q=>kind==='bookmark'?state.bookmarks.includes(q.id):kind==='wrong'?qstate(q.id).wrong:!qstate(q.id).attempted);currentSubject={id:'mixed',name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',questions:source};setup(currentSubject.name,()=>true)}
-function showSessions(){alert('Your current progress is saved. Use a subject and choose “Continue / next unattempted” to continue from the remaining questions.')}
+function finish(){clearSession();show('result');qs('result').innerHTML=`<div class=small>Quiz complete</div><div style="font-size:44px;font-weight:800;margin:8px">${score}/${session.length}</div><p>You can return to the subject, practice wrong questions, or start another 50-question set.</p><button class="btn primary" onclick="goHome()">Back to Home</button>`}
+function showPractice(kind){let source=allQ().filter(q=>kind==='bookmark'?state.bookmarks.includes(qkeyOf(q)):kind==='wrong'?qstate(q).wrong:!qstate(q).attempted);currentSubject={id:'mixed',name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',questions:source};setup(currentSubject.name,()=>true)}
+function saveSession(){
+  if(!session.length)return;
+  state.sessions.active={subjectId:currentSubject?currentSubject.id:null,subjectName:currentSubject?currentSubject.name:null,qids:session.map(qkeyOf),pos,score,updatedAt:Date.now()};
+  save();
+}
+function clearSession(){if(state.sessions&&state.sessions.active){delete state.sessions.active;save()}}
+function resumeSession(){
+  const s=state.sessions&&state.sessions.active;
+  if(!s||!s.qids||!s.qids.length){alert('No active session to continue. Start a quiz and it will be resumable here.');return}
+  const qmap={};allQ().forEach(q=>qmap[qkeyOf(q)]=q);
+  const restored=s.qids.map(k=>qmap[k]).filter(Boolean);
+  if(!restored.length){alert('Saved session no longer matches available questions.');clearSession();return}
+  currentSubject=(s.subjectId&&BANKS[s.subjectId])?BANKS[s.subjectId]:{id:'mixed',name:s.subjectName||'Session',questions:restored};
+  session=restored;pos=Math.min(s.pos||0,session.length-1);score=s.score||0;answered=false;
+  show('quiz');renderQ();
+}
+function showSessions(){resumeSession()}
 qs('allQuiz').onclick=()=>{
-  const unattempted=currentSubject.questions.filter(q=>!qstate(q.id).attempted);
+  const unattempted=currentSubject.questions.filter(q=>!qstate(q).attempted);
   if(!unattempted.length){
     alert('You have attempted all questions in this subject. Use Wrong Questions, Bookmarks, or a topic to review them.');
     return;
   }
-  setup('All Questions (Unattempted)',q=>!qstate(q.id).attempted);
+  setup('All Questions (Unattempted)',q=>!qstate(q).attempted);
 };
 let topicEntries=[];function renderTopics(){let term=(qs('topicSearch').value||'').toLowerCase();let rows=topicEntries.filter(([t])=>t.toLowerCase().includes(term));qs('topics').innerHTML=rows.map(([t,a])=>`<button class=tile onclick='setup(${JSON.stringify(t)}, q=>q.topic===${JSON.stringify(t)})'><strong>${esc(t)}</strong><span>${a.length} question${a.length===1?'':'s'}</span></button>`).join('')||'<div class=small>No matching topics.</div>'};qs('topicQuiz').onclick=()=>{qs('topicArea').classList.remove('hidden');qs('examArea').classList.add('hidden');let map={};currentSubject.questions.forEach(q=>(map[q.topic||'Uncategorized']??=[]).push(q));topicEntries=Object.entries(map).sort((a,b)=>a[0].localeCompare(b[0]));qs('topicSearch').value='';renderTopics()};qs('topicSearch').oninput=renderTopics;
 function examGroup(exam){
@@ -137,8 +203,124 @@ let examEntries=[];function renderExams(){let term=(qs('examSearch').value||'').
 
   examEntries=entries; qs('examSearch').value=''; renderExams();
 };qs('examSearch').oninput=renderExams;
-async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());BANKS.geography={id:'geography',name:'Geography',questions:data};renderHome()}
+async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());data.forEach(q=>q._sid='geography');BANKS.geography={id:'geography',name:'Geography',questions:data};renderHome()}
+qs('homeBtn').onclick=goHome;
+setAuthUI(false);
 init().catch(e=>{qs('status').textContent='Could not load question bank: '+e.message})
+</script>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
+import { getFirestore, doc, getDoc, setDoc, onSnapshot } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDiAhJVX_s9vezXAOukvKzU2QIiiaCFqR0",
+  authDomain: "ssc-pyq-06.firebaseapp.com",
+  projectId: "ssc-pyq-06",
+  storageBucket: "ssc-pyq-06.firebasestorage.app",
+  messagingSenderId: "38584669610",
+  appId: "1:38584669610:web:f4b0f89dd74bd0cd6747d3"
+};
+
+let uid = null;
+let unsubscribeSnapshot = null;
+let saveTimer = null;
+let latestState = null;
+
+try {
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+  const db = getFirestore(app);
+
+  function progressRef(u){ return doc(db, 'users', u, 'progress', 'main'); }
+
+  function listen(ref){
+    if (unsubscribeSnapshot) unsubscribeSnapshot();
+    unsubscribeSnapshot = onSnapshot(ref, snap => {
+      if (snap.metadata.hasPendingWrites) return; // echo of our own write, ignore
+      const data = snap.data();
+      if (data) window.applyRemoteState(data);
+      window.setSyncStatus('Synced');
+    }, err => {
+      console.error('Firestore listen error', err);
+      window.setSyncStatus('Offline — saved locally');
+    });
+  }
+
+  async function handleSignedIn(user){
+    uid = user.uid;
+    window.setAuthUI(true, user);
+    window.setSyncStatus('Syncing progress…');
+    const ref = progressRef(uid);
+    try {
+      const snap = await getDoc(ref);
+      const local = window.getLocalState();
+      const localHasData = local && (Object.keys(local.q||{}).length || (local.bookmarks||[]).length || Object.keys(local.sessions||{}).length);
+      if (snap.exists()) {
+        window.applyRemoteState(snap.data());
+      } else if (localHasData) {
+        await setDoc(ref, { q: local.q||{}, bookmarks: local.bookmarks||[], sessions: local.sessions||{}, updatedAt: Date.now() });
+      } else {
+        await setDoc(ref, { q:{}, bookmarks:[], sessions:{}, updatedAt: Date.now() });
+      }
+      listen(ref);
+      window.setSyncStatus('Synced');
+    } catch(e) {
+      console.error('Sign-in sync error', e);
+      window.setSyncStatus('Offline — saved locally');
+    }
+  }
+
+  function handleSignedOut(){
+    uid = null;
+    if (unsubscribeSnapshot) { unsubscribeSnapshot(); unsubscribeSnapshot = null; }
+    window.setAuthUI(false);
+  }
+
+  onAuthStateChanged(auth, user => {
+    if (user) handleSignedIn(user);
+    else handleSignedOut();
+  });
+
+  getRedirectResult(auth).catch(e => console.error('Redirect sign-in error', e));
+
+  function flushNow(){
+    clearTimeout(saveTimer);
+    if (!uid || !latestState) return;
+    const ref = progressRef(uid);
+    window.setSyncStatus('Syncing…');
+    setDoc(ref, { q: latestState.q||{}, bookmarks: latestState.bookmarks||[], sessions: latestState.sessions||{}, updatedAt: Date.now() })
+      .then(() => window.setSyncStatus('Synced'))
+      .catch(e => { console.error('Firestore write error', e); window.setSyncStatus('Offline — saved locally'); });
+  }
+
+  window.CloudSync = {
+    signIn(){
+      signInWithPopup(auth, new GoogleAuthProvider()).catch(e => {
+        console.error('Sign-in error', e);
+        if (e && (e.code === 'auth/popup-blocked' || e.code === 'auth/cancelled-popup-request')) {
+          signInWithRedirect(auth, new GoogleAuthProvider());
+        } else {
+          alert('Sign-in failed: ' + (e && e.message ? e.message : 'unknown error'));
+        }
+      });
+    },
+    signOut(){ signOut(auth).catch(e => console.error('Sign-out error', e)); },
+    queueSave(state){
+      latestState = state;
+      if (!uid) return;
+      clearTimeout(saveTimer);
+      saveTimer = setTimeout(flushNow, 700);
+    },
+    flushNow
+  };
+
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushNow(); });
+  window.addEventListener('beforeunload', flushNow);
+} catch(e) {
+  console.error('Firebase init failed', e);
+}
 </script>
 </body>
 </html>
