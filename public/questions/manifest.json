@@ -17,6 +17,24 @@
       "name": "Science",
       "file": "questions/science.json",
       "count": 244
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "file": "questions/history.json",
+      "count": 540
+    },
+    {
+      "id": "polity",
+      "name": "Polity",
+      "file": "questions/polity.json",
+      "count": 442
+    },
+    {
+      "id": "static_gk",
+      "name": "Static GK",
+      "file": "questions/static_gk.json",
+      "count": 1081
     }
   ]
 }
