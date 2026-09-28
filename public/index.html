@@ -49,7 +49,7 @@
 
 <section id="quizSetup" class="card hidden">
 <button class="btn" onclick="backBrowse()">← Back</button>
-<h2 id="setupTitle"></h2>
+<h2 id="setupTitle"></h2><div id="bookmarkFilter" class="hidden" style="margin-bottom:14px"><label>Subject</label><select id="bookmarkSubject" style="width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:12px;background:#fff"></select></div>
 <div class="grid">
 <div><label>Questions</label><select id="count"><option>10</option><option>25</option><option selected>50</option><option>100</option><option value="all">All</option></select></div>
 <div><label>Order</label><select id="order"><option value="random">Random</option><option value="sequential">PDF order</option></select></div>
@@ -142,7 +142,42 @@ function renderQ(){let q=session[pos], st=qstate(q);qs('quizMeta').innerHTML=`<d
 function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;st.selected=i;if(correct){st.correct=true;score++;}else st.wrong=true;save();lockAnswerUI(q,i,correct)}
 qs('nextBtn').onclick=()=>{if(pos<session.length-1){pos++;renderQ()}else finish()};qs('prevBtn').onclick=()=>{if(pos>0){pos--;renderQ()}};
 function finish(){clearSession();show('result');qs('result').innerHTML=`<div class=small>Quiz complete</div><div style="font-size:44px;font-weight:800;margin:8px">${score}/${session.length}</div><p>You can return to the subject, practice wrong questions, or start another 50-question set.</p><button class="btn primary" onclick="goHome()">Back to Home</button>`}
-function showPractice(kind){let source=allQ().filter(q=>kind==='bookmark'?state.bookmarks.includes(qkeyOf(q)):kind==='wrong'?qstate(q).wrong:!qstate(q).attempted);currentSubject={id:'mixed',name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',questions:source};setup(currentSubject.name,()=>true)}
+function showPractice(kind){
+  const filterWrap=qs('bookmarkFilter');
+  const subjectSelect=qs('bookmarkSubject');
+
+  if(kind==='bookmark'){
+    filterWrap.classList.remove('hidden');
+
+    if(!subjectSelect.options.length){
+      subjectSelect.innerHTML='<option value="all">All Subjects</option>'+
+        Object.values(BANKS).map(b=>'<option value="'+esc(b.id)+'">'+esc(b.name)+'</option>').join('');
+    }
+
+    subjectSelect.onchange=()=>showPractice('bookmark');
+  }else{
+    filterWrap.classList.add('hidden');
+    subjectSelect.onchange=null;
+  }
+
+  const selected=kind==='bookmark'?(subjectSelect.value||'all'):'all';
+
+  let source=allQ().filter(q=>
+    kind==='bookmark'
+      ? state.bookmarks.includes(qkeyOf(q)) && (selected==='all'||q._sid===selected)
+      : kind==='wrong'
+        ? qstate(q).wrong
+        : !qstate(q).attempted
+  );
+
+  currentSubject={
+    id:'mixed',
+    name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',
+    questions:source
+  };
+
+  setup(currentSubject.name,()=>true);
+}
 function saveSession(){
   if(!session.length)return;
   state.sessions.active={subjectId:currentSubject?currentSubject.id:null,subjectName:currentSubject?currentSubject.name:null,qids:session.map(qkeyOf),pos,score,updatedAt:Date.now()};
