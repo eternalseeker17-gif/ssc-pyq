@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "subjects": [
+    {
+      "id": "geography",
+      "name": "Geography",
+      "question_file": "questions/geography.json",
+      "question_count": 416
+    }
+  ]
+}

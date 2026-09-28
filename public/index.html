@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SSC PYQ</title>
+
+<style>
+:root{--bg:#f7f5f2;--card:#fffdfa;--ink:#28242d;--muted:#756e78;--accent:#8068ad;--accent2:#eee8f7;--good:#347557;--goodbg:#e9f5ee;--bad:#b65360;--badbg:#fbecee;--line:#e5dfe5;--tag:#f4eff8;--shadow:0 10px 30px rgba(48,38,58,.07)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fbf9f7,#f5f2f0);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}.app{max-width:1120px;margin:auto;padding:18px 20px 40px}.top{position:sticky;top:0;z-index:10;background:rgba(251,249,247,.93);backdrop-filter:blur(12px);padding:10px 0 14px;border-bottom:1px solid var(--line)}.brand{display:flex;justify-content:space-between;gap:12px;align-items:center}.brand h1{margin:0;font-size:23px;letter-spacing:-.4px}.small{font-size:12px;color:var(--muted)}button,select,input{font:inherit}.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:13px;padding:10px 14px;cursor:pointer;font-weight:650;transition:.16s}.btn:hover{transform:translateY(-1px);border-color:#c9bad8;box-shadow:0 5px 14px rgba(48,38,58,.06)}.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow);margin-top:16px}.grid,.subject-grid,.topic-grid,.action-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.subject-grid{grid-template-columns:repeat(3,1fr)}.tile{padding:17px;border:1px solid var(--line);border-radius:17px;background:#fff;text-align:left;cursor:pointer;transition:.16s}.tile:hover{transform:translateY(-1px);border-color:#c9bad8}.tile strong{display:block;font-size:16px;line-height:1.35}.tile span{font-size:12px;color:var(--muted);display:block;margin-top:5px}.subject-grid .tile{padding:20px}.subject-grid .tile strong{font-size:18px}.subject-grid .tile:before{content:'📘';display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--accent2);margin-bottom:12px}.pills{display:flex;flex-wrap:wrap;gap:7px}.pill{background:var(--tag);padding:7px 10px;border-radius:999px;font-size:12px}.hidden{display:none!important}.meta{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px}.question{font-size:22px;line-height:1.5;font-weight:720;letter-spacing:-.2px;margin:8px 0 18px}.options{display:grid;gap:10px}.option{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:15px;padding:15px;cursor:pointer;display:flex;gap:12px;transition:.14s}.option:hover:not(:disabled){border-color:#c9bad8;background:#fcfaff;transform:translateY(-1px)}.option.correct{border-color:var(--good);background:var(--goodbg)}.option.wrong{border-color:var(--bad);background:var(--badbg)}.letter{font-weight:850;min-width:24px}.feedback{margin-top:15px;padding:14px;border-radius:14px;line-height:1.55}.feedback.good{background:var(--goodbg)}.feedback.bad{background:var(--badbg)}.nav{display:flex;gap:10px;margin-top:16px}.nav>*{flex:1}.bar{height:7px;background:#e9e4e8;border-radius:99px;overflow:hidden;margin-top:8px}.bar>div{height:100%;background:var(--accent);transition:.2s}.statgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{background:#fffcfa;border:1px solid var(--line);border-radius:15px;padding:14px}.stat b{font-size:23px;display:block}.right{float:right}.bookmark{white-space:nowrap}.center{text-align:center}.search{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:12px;background:#fff;margin:5px 0 12px;outline:none}.search:focus{border-color:#b9a5ce;box-shadow:0 0 0 3px var(--accent2)}@media(max-width:800px){.subject-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.app{padding:12px}.grid,.subject-grid,.topic-grid,.action-grid{grid-template-columns:1fr}.statgrid{grid-template-columns:repeat(2,1fr)}.brand h1{font-size:20px}.question{font-size:19px}}
+</style>
+
+</head>
+<body>
+<div class="app">
+<header class="top"><div class="brand"><div><h1>SSC PYQ</h1><div class="small">Actual SSC previous-year questions • multi-subject • topic & exam wise</div></div><div><button class="btn" id="homeBtn">Home</button></div></div><div id="status" class="small" style="margin-top:7px"></div></header>
+
+<section id="home" class="card">
+<h2 style="margin-top:0">Choose a subject</h2>
+<div id="subjects" class="subject-grid"></div>
+<div class="card" style="margin-left:0;margin-right:0;background:#fcf8fb">
+<h3 style="margin-top:0">My Progress</h3>
+<div id="stats" class="statgrid"></div>
+<div class="action-grid" style="margin-top:12px">
+<button class="btn" onclick="showPractice('wrong')">❌ Wrong Questions</button>
+<button class="btn" onclick="showPractice('bookmark')">🔖 Bookmarks</button>
+<button class="btn" onclick="showPractice('unattempted')">⏳ Unattempted</button>
+<button class="btn" onclick="showSessions()">▶ Continue Sessions</button>
+</div>
+</div>
+</section>
+
+<section id="browse" class="card hidden">
+<button class="btn" onclick="goHome()">← Back</button>
+<h2 id="browseTitle"></h2>
+<div class="action-grid">
+<button class="btn" id="allQuiz">📚 All Questions</button>
+<button class="btn" id="topicQuiz">🗂️ Topic-wise</button>
+<button class="btn" id="examQuiz">📝 Exam / Year-wise</button>
+</div>
+<div id="topicArea" class="hidden"><h3>Topics</h3><input id="topicSearch" class="search" placeholder="Search topics…"><div id="topics" class="topic-grid"></div></div>
+<div id="examArea" class="hidden"><h3>Exams / Year</h3><div class="small" style="margin:-4px 0 10px">Grouped by exam and year. The full date and shift stay visible on each question.</div><input id="examSearch" class="search" placeholder="Search exams…"><div id="exams" class="topic-grid"></div></div>
+</section>
+
+<section id="quizSetup" class="card hidden">
+<button class="btn" onclick="backBrowse()">← Back</button>
+<h2 id="setupTitle"></h2>
+<div class="grid">
+<div><label>Questions</label><select id="count"><option>10</option><option>25</option><option selected>50</option><option>100</option><option value="all">All</option></select></div>
+<div><label>Order</label><select id="order"><option value="random">Random</option><option value="sequential">PDF order</option></select></div>
+</div>
+<div class="nav"><button class="btn primary" id="startQuiz">Start Quiz</button><button class="btn" id="continueQuiz">Continue / next unattempted</button></div>
+</section>
+
+<section id="quiz" class="hidden">
+<div class="card">
+<div id="quizMeta" class="meta"></div>
+<div style="display:flex;justify-content:space-between;gap:10px"><div id="qText" class="question" style="flex:1"></div><button class="btn bookmark" id="bookmarkBtn">☆ Bookmark</button></div>
+<div id="options" class="options"></div>
+<div id="feedback"></div>
+<div class="nav"><button class="btn" id="prevBtn">← Previous</button><button class="btn primary" id="nextBtn">Next →</button></div>
+<div style="margin-top:12px"><div class="small" id="progressText"></div><div class="bar"><div id="progressBar"></div></div></div>
+</div></section>
+
+<section id="result" class="card hidden center"></section>
+</div>
+
+<script>
+let BANKS={}, currentSubject=null, pool=[], session=[], pos=0, answered=false, score=0;
+const KEY='ssc_pyq_progress_v1';
+let state=JSON.parse(localStorage.getItem(KEY)||'{"q":{},"bookmarks":[],"sessions":{}}');
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function qs(id){return document.getElementById(id)}
+function qstate(id){return state.q[id]||(state.q[id]={attempted:false,wrong:false,correct:false,attempts:0})}
+function allQ(){return Object.values(BANKS).flatMap(b=>b.questions||[])}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function show(id){['home','browse','quizSetup','quiz','result'].forEach(x=>qs(x).classList.toggle('hidden',x!==id))}
+function goHome(){show('home');renderHome()}
+function stats(){let a=allQ().map(q=>qstate(q.id));return {attempted:a.filter(x=>x.attempted).length,wrong:a.filter(x=>x.wrong).length,bookmarks:state.bookmarks.length,unattempted:a.filter(x=>!x.attempted).length}}
+function renderHome(){let s=stats();qs('stats').innerHTML=`<div class=stat><b>${s.attempted}</b>Attempted</div><div class=stat><b>${s.unattempted}</b>Unattempted</div><div class=stat><b>${s.wrong}</b>Wrong</div><div class=stat><b>${s.bookmarks}</b>Bookmarks</div>`;qs('subjects').innerHTML=Object.values(BANKS).map((b,i)=>`<button class=tile onclick="chooseSubject('${esc(b.id)}')"><strong>${esc(b.name)}</strong><span>${b.questions.length} questions</span></button>`).join('')}
+function chooseSubject(id){currentSubject=BANKS[id];qs('browseTitle').textContent=currentSubject.name+' — Choose Practice Mode';qs('topicArea').classList.add('hidden');qs('examArea').classList.add('hidden');show('browse')}
+function backBrowse(){show('browse')}
+function setup(mode,filter){let qsx=currentSubject.questions.filter(filter||(()=>true));pool=qsx;qs('setupTitle').textContent=currentSubject.name+' — '+mode;qs('startQuiz').onclick=()=>begin(qsx);qs('continueQuiz').onclick=()=>begin(qsx,true);show('quizSetup')}
+function begin(source,continueMode=false){let un=source.filter(q=>!qstate(q.id).attempted);let base=continueMode&&un.length?un:source;let n=qs('count').value==='all'?base.length:Number(qs('count').value);if(n<base.length&&qs('order').value==='random')base=[...base].sort(()=>Math.random()-.5);session=base.slice(0,n);pos=0;score=0;answered=false;show('quiz');renderQ()}
+function renderQ(){let q=session[pos], st=qstate(q.id);answered=false;qs('quizMeta').innerHTML=`<div style="width:100%;background:#f3eef8;border:1px solid #ddd3e5;border-radius:14px;padding:11px 13px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800">Original exam source</div><div style="font-size:14px;font-weight:750;margin-top:3px;line-height:1.4">${esc(q.exam||'Exam information not available')}</div>${q.topic?`<div class="small" style="margin-top:5px">Topic: ${esc(q.topic)}</div>`:''}</div>`;qs('qText').textContent=q.question;qs('options').innerHTML=(q.options||[]).map((o,i)=>`<button class=option onclick="answer(${i})"><span class=letter>${'ABCD'[i]}.</span><span>${esc(o)}</span></button>`).join('');qs('feedback').innerHTML='';qs('bookmarkBtn').textContent=state.bookmarks.includes(q.id)?'★ Bookmarked':'☆ Bookmark';qs('bookmarkBtn').onclick=()=>{let i=state.bookmarks.indexOf(q.id);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(q.id);save();renderQ()};qs('prevBtn').disabled=pos===0;qs('nextBtn').textContent=pos===session.length-1?'Finish':'Next →';qs('progressText').textContent=`Question ${pos+1} of ${session.length}`;qs('progressBar').style.width=((pos+1)/session.length*100)+'%'}
+function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q.id),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;if(correct){st.correct=true;score++;}else st.wrong=true;save();document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;b.classList.add('disabled');if(j===i)b.classList.add(correct?'correct':'wrong');if(['a','b','c','d'][j]===String(q.answer).toLowerCase())b.classList.add('correct')});qs('feedback').innerHTML=`<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'✓ Correct':'✗ Incorrect'}</strong><div>Correct answer: <b>${esc(q.answer||'Not available')}</b></div>${q.explanation?`<div style="margin-top:7px">${esc(q.explanation)}</div>`:''}</div>`}
+qs('nextBtn').onclick=()=>{if(pos<session.length-1){pos++;renderQ()}else finish()};qs('prevBtn').onclick=()=>{if(pos>0){pos--;renderQ()}};
+function finish(){show('result');qs('result').innerHTML=`<div class=small>Quiz complete</div><div style="font-size:44px;font-weight:800;margin:8px">${score}/${session.length}</div><p>You can return to the subject, practice wrong questions, or start another 50-question set.</p><button class="btn primary" onclick="goHome()">Back to Home</button>`}
+function showPractice(kind){let source=allQ().filter(q=>kind==='bookmark'?state.bookmarks.includes(q.id):kind==='wrong'?qstate(q.id).wrong:!qstate(q.id).attempted);currentSubject={id:'mixed',name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',questions:source};setup(currentSubject.name,()=>true)}
+function showSessions(){alert('Your current progress is saved. Use a subject and choose “Continue / next unattempted” to continue from the remaining questions.')}
+qs('allQuiz').onclick=()=>{
+  const unattempted=currentSubject.questions.filter(q=>!qstate(q.id).attempted);
+  if(!unattempted.length){
+    alert('You have attempted all questions in this subject. Use Wrong Questions, Bookmarks, or a topic to review them.');
+    return;
+  }
+  setup('All Questions (Unattempted)',q=>!qstate(q.id).attempted);
+};
+let topicEntries=[];function renderTopics(){let term=(qs('topicSearch').value||'').toLowerCase();let rows=topicEntries.filter(([t])=>t.toLowerCase().includes(term));qs('topics').innerHTML=rows.map(([t,a])=>`<button class=tile onclick='setup(${JSON.stringify(t)}, q=>q.topic===${JSON.stringify(t)})'><strong>${esc(t)}</strong><span>${a.length} question${a.length===1?'':'s'}</span></button>`).join('')||'<div class=small>No matching topics.</div>'};qs('topicQuiz').onclick=()=>{qs('topicArea').classList.remove('hidden');qs('examArea').classList.add('hidden');let map={};currentSubject.questions.forEach(q=>(map[q.topic||'Uncategorized']??=[]).push(q));topicEntries=Object.entries(map).sort((a,b)=>a[0].localeCompare(b[0]));qs('topicSearch').value='';renderTopics()};qs('topicSearch').oninput=renderTopics;
+function examGroup(exam){
+  if(!exam) return 'Exam information unavailable';
+  let s=String(exam).replace(/\s+/g,' ').trim();
+  const year=(s.match(/\b(20\d{2})\b/)||[])[1] || '';
+
+  // Group only by exam + year. Date and shift are intentionally removed
+  // from the filter; the full original exam/date/shift remains visible
+  // on every question while attempting the quiz.
+  let base=s
+    .replace(/\s*\([^)]*Shift[-\s]*\d+[^)]*\)/gi,'')
+    .replace(/\s*[,;-]?\s*\d{1,2}\/\d{1,2}\/20\d{2}\s*/g,' ')
+    .replace(/\s+/g,' ')
+    .trim();
+
+  // Make equivalent Tier spellings one canonical exam name.
+  base=base
+    .replace(/TIER\s*[- ]?\s*1\b/gi,'TIER-I')
+    .replace(/TIER\s*[- ]?\s*I\b/gi,'TIER-I')
+    .replace(/TIER\s*[- ]?\s*2\b/gi,'TIER-II')
+    .replace(/TIER\s*[- ]?\s*II\b/gi,'TIER-II')
+    .replace(/\s*,\s*$/,'')
+    .replace(/\s+/g,' ')
+    .trim();
+
+  return year ? `${base} — ${year}` : base;
+}
+let examEntries=[];function renderExams(){let term=(qs('examSearch').value||'').toLowerCase();let rows=examEntries.filter(([t])=>t.toLowerCase().includes(term));qs('exams').innerHTML=rows.map(([t,a])=>`<button class=tile onclick='setup(${JSON.stringify(t)}, q=>examGroup(q.exam)===${JSON.stringify(t)})'><strong>${esc(t)}</strong><span>${a.length} question${a.length===1?'':'s'} · date & shift shown in quiz</span></button>`).join('')||'<div class=small>No matching exams.</div>'};qs('examQuiz').onclick=()=>{qs('examArea').classList.remove('hidden');
+  qs('topicArea').classList.add('hidden');
+  let map={};
+  currentSubject.questions.forEach(q=>(map[examGroup(q.exam)]??=[]).push(q));
+
+  const entries=Object.entries(map).sort((a,b)=>{
+    const ay=(a[0].match(/20\d{2}/)||['0'])[0];
+    const by=(b[0].match(/20\d{2}/)||['0'])[0];
+    if(ay!==by) return Number(by)-Number(ay);
+    return a[0].localeCompare(b[0]);
+  });
+
+  examEntries=entries; qs('examSearch').value=''; renderExams();
+};qs('examSearch').oninput=renderExams;
+async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());BANKS.geography={id:'geography',name:'Geography',questions:data};renderHome()}
+init().catch(e=>{qs('status').textContent='Could not load question bank: '+e.message})
+</script>
+</body>
+</html>

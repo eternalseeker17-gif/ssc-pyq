@@ -1,0 +1,10 @@
+{
+  "subjects": [
+    {
+      "id": "geography",
+      "name": "Geography",
+      "file": "questions/geography.json",
+      "count": 416
+    }
+  ]
+}
