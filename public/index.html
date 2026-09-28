@@ -25,7 +25,7 @@
 <button class="btn" onclick="showPractice('wrong')">❌ Wrong Questions</button>
 <button class="btn" onclick="showPractice('bookmark')">🔖 Bookmarks</button>
 <button class="btn" onclick="showPractice('unattempted')">⏳ Unattempted</button>
-<button class="btn" onclick="showSessions()">▶ Continue Sessions</button>
+<button class="btn" id="continueSessionsBtn" onclick="showSessions()" disabled title="Loading questions…">▶ Continue Sessions</button>
 </div>
 </div>
 </section>
@@ -66,7 +66,7 @@
 </div>
 
 <script>
-let BANKS={}, currentSubject=null, pool=[], session=[], pos=0, answered=false, score=0;
+let BANKS={}, currentSubject=null, pool=[], session=[], pos=0, answered=false, score=0, dataReady=false;
 const KEY='ssc_pyq_progress_v1';
 let state=JSON.parse(localStorage.getItem(KEY)||'{"q":{},"bookmarks":[],"sessions":{}}');
 let isApplyingRemote=false;
@@ -95,7 +95,7 @@ function save(){
 }
 function qs(id){return document.getElementById(id)}
 function qkeyOf(q){return (q._sid||'geography')+':'+q.id}
-function qstate(q){let k=qkeyOf(q);return state.q[k]||(state.q[k]={attempted:false,wrong:false,correct:false,attempts:0})}
+function qstate(q){let k=qkeyOf(q);return state.q[k]||(state.q[k]={attempted:false,wrong:false,correct:false,attempts:0,selected:null})}
 function allQ(){return Object.values(BANKS).flatMap(b=>b.questions||[])}
 function getLocalState(){return state}
 function applyRemoteState(data){
@@ -132,8 +132,9 @@ function chooseSubject(id){currentSubject=BANKS[id];qs('browseTitle').textConten
 function backBrowse(){show('browse')}
 function setup(mode,filter){let qsx=currentSubject.questions.filter(filter||(()=>true));pool=qsx;qs('setupTitle').textContent=currentSubject.name+' — '+mode;qs('startQuiz').onclick=()=>begin(qsx);qs('continueQuiz').onclick=()=>begin(qsx,true);show('quizSetup')}
 function begin(source,continueMode=false){let un=source.filter(q=>!qstate(q).attempted);let base=continueMode&&un.length?un:source;let n=qs('count').value==='all'?base.length:Number(qs('count').value);if(n<base.length&&qs('order').value==='random')base=[...base].sort(()=>Math.random()-.5);session=base.slice(0,n);pos=0;score=0;answered=false;show('quiz');renderQ()}
-function renderQ(){let q=session[pos], st=qstate(q);answered=false;qs('quizMeta').innerHTML=`<div style="width:100%;background:#f3eef8;border:1px solid #ddd3e5;border-radius:14px;padding:11px 13px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800">Original exam source</div><div style="font-size:14px;font-weight:750;margin-top:3px;line-height:1.4">${esc(q.exam||'Exam information not available')}</div>${q.topic?`<div class="small" style="margin-top:5px">Topic: ${esc(q.topic)}</div>`:''}</div>`;qs('qText').textContent=q.question;qs('options').innerHTML=(q.options||[]).map((o,i)=>`<button class=option onclick="answer(${i})"><span class=letter>${'ABCD'[i]}.</span><span>${esc(o)}</span></button>`).join('');qs('feedback').innerHTML='';qs('bookmarkBtn').textContent=state.bookmarks.includes(qkeyOf(q))?'★ Bookmarked':'☆ Bookmark';qs('bookmarkBtn').onclick=()=>{let k=qkeyOf(q),i=state.bookmarks.indexOf(k);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(k);save();renderQ()};qs('prevBtn').disabled=pos===0;qs('nextBtn').textContent=pos===session.length-1?'Finish':'Next →';qs('progressText').textContent=`Question ${pos+1} of ${session.length}`;qs('progressBar').style.width=((pos+1)/session.length*100)+'%';saveSession()}
-function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;if(correct){st.correct=true;score++;}else st.wrong=true;save();document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;b.classList.add('disabled');if(j===i)b.classList.add(correct?'correct':'wrong');if(['a','b','c','d'][j]===String(q.answer).toLowerCase())b.classList.add('correct')});qs('feedback').innerHTML=`<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'✓ Correct':'✗ Incorrect'}</strong><div>Correct answer: <b>${esc(q.answer||'Not available')}</b></div>${q.explanation?`<div style="margin-top:7px">${esc(q.explanation)}</div>`:''}</div>`}
+function lockAnswerUI(q,i,correct){document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;b.classList.add('disabled');if(j===i)b.classList.add(correct?'correct':'wrong');if(['a','b','c','d'][j]===String(q.answer).toLowerCase())b.classList.add('correct')});qs('feedback').innerHTML=`<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'✓ Correct':'✗ Incorrect'}</strong><div>Correct answer: <b>${esc(q.answer||'Not available')}</b></div>${q.explanation?`<div style="margin-top:7px">${esc(q.explanation)}</div>`:''}</div>`}
+function renderQ(){let q=session[pos], st=qstate(q);qs('quizMeta').innerHTML=`<div style="width:100%;background:#f3eef8;border:1px solid #ddd3e5;border-radius:14px;padding:11px 13px"><div style="font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800">Original exam source</div><div style="font-size:14px;font-weight:750;margin-top:3px;line-height:1.4">${esc(q.exam||'Exam information not available')}</div>${q.topic?`<div class="small" style="margin-top:5px">Topic: ${esc(q.topic)}</div>`:''}</div>`;qs('qText').textContent=q.question;qs('options').innerHTML=(q.options||[]).map((o,i)=>`<button class=option onclick="answer(${i})"><span class=letter>${'ABCD'[i]}.</span><span>${esc(o)}</span></button>`).join('');qs('feedback').innerHTML='';qs('bookmarkBtn').textContent=state.bookmarks.includes(qkeyOf(q))?'★ Bookmarked':'☆ Bookmark';qs('bookmarkBtn').onclick=()=>{let k=qkeyOf(q),i=state.bookmarks.indexOf(k);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(k);save();renderQ()};qs('prevBtn').disabled=pos===0;qs('nextBtn').textContent=pos===session.length-1?'Finish':'Next →';qs('progressText').textContent=`Question ${pos+1} of ${session.length}`;qs('progressBar').style.width=((pos+1)/session.length*100)+'%';if(st.attempted){answered=true;lockAnswerUI(q,typeof st.selected==='number'?st.selected:-1,!!st.correct)}else{answered=false}saveSession()}
+function answer(i){if(answered)return;answered=true;let q=session[pos],st=qstate(q),correct=String(q.answer).toLowerCase()===['a','b','c','d'][i];st.attempted=true;st.attempts++;st.selected=i;if(correct){st.correct=true;score++;}else st.wrong=true;save();lockAnswerUI(q,i,correct)}
 qs('nextBtn').onclick=()=>{if(pos<session.length-1){pos++;renderQ()}else finish()};qs('prevBtn').onclick=()=>{if(pos>0){pos--;renderQ()}};
 function finish(){clearSession();show('result');qs('result').innerHTML=`<div class=small>Quiz complete</div><div style="font-size:44px;font-weight:800;margin:8px">${score}/${session.length}</div><p>You can return to the subject, practice wrong questions, or start another 50-question set.</p><button class="btn primary" onclick="goHome()">Back to Home</button>`}
 function showPractice(kind){let source=allQ().filter(q=>kind==='bookmark'?state.bookmarks.includes(qkeyOf(q)):kind==='wrong'?qstate(q).wrong:!qstate(q).attempted);currentSubject={id:'mixed',name:kind==='bookmark'?'Bookmarks':kind==='wrong'?'Wrong Questions':'Unattempted',questions:source};setup(currentSubject.name,()=>true)}
@@ -153,7 +154,10 @@ function resumeSession(){
   session=restored;pos=Math.min(s.pos||0,session.length-1);score=s.score||0;answered=false;
   show('quiz');renderQ();
 }
-function showSessions(){resumeSession()}
+function showSessions(){
+  if(!dataReady){alert('Questions are still loading. Please wait a moment and try Continue Sessions again.');return}
+  resumeSession();
+}
 qs('allQuiz').onclick=()=>{
   const unattempted=currentSubject.questions.filter(q=>!qstate(q).attempted);
   if(!unattempted.length){
@@ -203,7 +207,7 @@ let examEntries=[];function renderExams(){let term=(qs('examSearch').value||'').
 
   examEntries=entries; qs('examSearch').value=''; renderExams();
 };qs('examSearch').oninput=renderExams;
-async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());data.forEach(q=>q._sid='geography');BANKS.geography={id:'geography',name:'Geography',questions:data};renderHome()}
+async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());data.forEach(q=>q._sid='geography');BANKS.geography={id:'geography',name:'Geography',questions:data};dataReady=true;let csBtn=qs('continueSessionsBtn');if(csBtn){csBtn.disabled=false;csBtn.title=''}renderHome()}
 qs('homeBtn').onclick=goHome;
 setAuthUI(false);
 init().catch(e=>{qs('status').textContent='Could not load question bank: '+e.message})
