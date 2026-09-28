@@ -1,11 +1,16 @@
 {
-  "version": 1,
   "subjects": [
     {
       "id": "geography",
       "name": "Geography",
-      "question_file": "questions/geography.json",
-      "question_count": 416
+      "file": "questions/geography.json",
+      "count": 416
+    },
+    {
+      "id": "economy",
+      "name": "Economy",
+      "file": "questions/economy.json",
+      "count": 807
     }
   ]
 }

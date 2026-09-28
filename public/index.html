@@ -212,7 +212,30 @@ let examEntries=[];function renderExams(){let term=(qs('examSearch').value||'').
 
   examEntries=entries; qs('examSearch').value=''; renderExams();
 };qs('examSearch').oninput=renderExams;
-async function init(){let data=await fetch('questions/geography.json').then(r=>r.json());data.forEach(q=>q._sid='geography');BANKS.geography={id:'geography',name:'Geography',questions:data};dataReady=true;let csBtn=qs('continueSessionsBtn');if(csBtn){csBtn.disabled=false;csBtn.title=''}renderHome()}
+async function init(){
+  const manifest=await fetch('questions/manifest.json').then(r=>r.json());
+  const subjects=manifest.subjects||[];
+
+  await Promise.all(subjects.map(async s=>{
+    const data=await fetch(s.file).then(r=>r.json());
+    data.forEach(q=>q._sid=s.id);
+    BANKS[s.id]={
+      id:s.id,
+      name:s.name,
+      questions:data
+    };
+  }));
+
+  dataReady=true;
+
+  const csBtn=qs('continueSessionsBtn');
+  if(csBtn){
+    csBtn.disabled=false;
+    csBtn.title='';
+  }
+
+  renderHome();
+}
 qs('homeBtn').onclick=goHome;
 setAuthUI(false);
 init().catch(e=>{qs('status').textContent='Could not load question bank: '+e.message})
