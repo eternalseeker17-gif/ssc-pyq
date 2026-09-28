@@ -10,7 +10,13 @@
       "id": "economy",
       "name": "Economy",
       "file": "questions/economy.json",
-      "count": 807
+      "count": 810
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "file": "questions/science.json",
+      "count": 244
     }
   ]
 }

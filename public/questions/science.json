@@ -1,0 +1,3906 @@
+[
+  {
+    "id": 1,
+    "subject": "Science",
+    "topic": "Physical Quantities, Units and Dimensions",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 21/09/2025 (Shift-02)",
+    "question": "The moment of inertia of a rigid body about an axis:",
+    "options": [
+      "Is a scalar quantity, independent of the axis",
+      "Is a vector quantity, dependent on the axis",
+      "Is a scalar quantity, dependent on the axis",
+      "Is a tensor quantity, independent of the axis"
+    ],
+    "answer": "c",
+    "explanation": "The moment of inertia of a rig id body indicates how much resistance that body offers to rotation about an axis. • It is a scalar quantity, but it depends on the axis about which you are rotating."
+  },
+  {
+    "id": 2,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 27/11/2025 (Shift-02)",
+    "question": "The magnitude of buoyant force depends on the____ of the fluid.",
+    "options": [
+      "refractive index",
+      "density",
+      "colour",
+      "charge"
+    ],
+    "answer": "b",
+    "explanation": "• The buoyant force is equal to the weight of the displaced fluid. • The weight of the fluid directly depends on its density. Therefore, the greater the density of the fluid, the greater will be the magnitude of the buoyant force."
+  },
+  {
+    "id": 3,
+    "subject": "Science",
+    "topic": "Physical Quantities, Units and Dimensions",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-03)",
+    "question": "What is the Sl unit of pressure?",
+    "options": [
+      "Ampere",
+      "Watt",
+      "Pascal",
+      "Newton"
+    ],
+    "answer": "c",
+    "explanation": "• The SI unit of pressure is pascal (Pa). • 1 pascal = 1 newton per square metre (N/m²) • Ampere is the unit of current, watt is of power and newton is the unit of force."
+  },
+  {
+    "id": 4,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 24/11/2025 (Shift-03)",
+    "question": "Mechanical energy is mainly composed of how many types?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "a",
+    "explanation": "Mechanical Energy is primarily the sum of two types of energies. The capacity to do work possessed by an object due to its motion or its position (shape) is called mechanical energy. Two types of Mechanical Energy: 1. Kinetic Energy: The energy possessed by an object due to its motion. 1 2 . . 2 K E mv = Formula: (where m is mass and v is velocity). Example: Flowing water, a moving car. 2. Potential Energy: The energy stored in an object due to its specific position or state (such as height or stretch). Formula: P.E. = mgh (where g is acceleration due to gravity and h is height). Example: Water stored in a dam, a stretched catapult."
+  },
+  {
+    "id": 5,
+    "subject": "Science",
+    "topic": "Physical Quantities, Units and Dimensions",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 28/07/2025 (Shift-01)",
+    "question": "Which of the following is measured using a barometer?",
+    "options": [
+      "Distance",
+      "Pressure",
+      "Speed",
+      "Temperaturer"
+    ],
+    "answer": "b",
+    "explanation": "Pressure is measured with a Barometer, distance traveled with an Odometer, speed with a Speedometer, and temperature with a Thermometer."
+  },
+  {
+    "id": 6,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-01)",
+    "question": "Which of the following is correct regarding law of conservation of energy? I. Energy can only be converted from one form to another II. Energy can be easily destroyed",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "a",
+    "explanation": "The law of conservation of energy states that energy can neither be created nor destroyed; it can only be transformed from one form to another. Therefore, statement (I) is correct and statement (II) is incorrect. • Example: When a ball falls from a height, its potential energy changes into kinetic energy while falling."
+  },
+  {
+    "id": 7,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-02)",
+    "question": "What is the formula for pressure?",
+    "options": [
+      "Pressure = Force / Area",
+      "Pressure = Force × Area",
+      "Pressure = Area / Force",
+      "Pressure = (Force × Force) / Area"
+    ],
+    "answer": "a",
+    "explanation": "The value obtained by dividing the force applied perpendicularly to a surface by the area of that surface is called pressure. Formula: Pressure = Force Area Units: Pascal (Pa), Newton per square meter (N/m2), atmospheric pressure, bar, millimeter of mercury, torr, pound per square inch."
+  },
+  {
+    "id": 8,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 12/11/2025 (Shift-03)",
+    "question": "Weight of an object on earth is 441 N. What is the mass of the object?",
+    "options": [
+      "49 kg",
+      "41 kg",
+      "40 kg",
+      "45 kg"
+    ],
+    "answer": "d",
+    "explanation": "The weight (W) of an object is equal to the product of its mass (m) and the acceleration due to gravity (g). Given: Weight of the object W = 441N Formula: W = mg Where, g = 9.8 m/s² Calculation: W = mg w 441 m 45kg g 9.8   "
+  },
+  {
+    "id": 9,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 12/11/2025 (Shift-02)",
+    "question": "What is gravitational potential energy?",
+    "options": [
+      "Energy possessed by an object due to its motion",
+      "Energy stored in an object due to its position above the ground",
+      "Energy that is released during a chemical reaction",
+      "Energy transferred through heat"
+    ],
+    "answer": "b",
+    "explanation": "Gravitational potential energy is the energy stored in an object due to its height and mass. It can be expressed as follows: U = m.g.h Where, m = mass, g = acceleration due to gravity, h = height from the surface."
+  },
+  {
+    "id": 10,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 20/09/2025 (Shift-02)",
+    "question": "Why is it more difficult to walk on sand than on a concrete pavement?",
+    "options": [
+      "Sand has a higher coefficient of static friction than concrete.",
+      "Sand is less dense than concrete, causing less gravitational pull.",
+      "Sand displaces, reducing pushback",
+      "Sand particles are magnetic, creating an opposing force."
+    ],
+    "answer": "c",
+    "explanation": "While walking on a concrete pavement, the force exerted by the foot receives an equal reaction force from the ground. However, when walking on sand, the sand particles shift (get displaced), due to which the feet do not receive a sufficient reaction force. This is the reason why it is more difsficult to walk on sand ."
+  },
+  {
+    "id": 11,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-01)",
+    "question": "What happens to the pressure when the area is reduced while keeping the force same?",
+    "options": [
+      "Pressure decreases",
+      "Pressure increases",
+      "Pressure remains constant",
+      "Pressure becomes zero"
+    ],
+    "answer": "b",
+    "explanation": "When the force remains constant, pressure and area are inversely proportional; that is, pressure increases when the area decreases, and pressure decreases when the area increases, because the formula for pressure is P = F/A, where P = pressure, F = force, and A = area."
+  },
+  {
+    "id": 12,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-01)",
+    "question": "Which of the following statement about weight is correct? 1. Weight has only magnitude but no direction 2. Weight is a force acting vertically downwards",
+    "options": [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": "b",
+    "explanation": "Weight is a force, therefore it has both magnitude and direction: hence statement 1 is incorrect. Weight acts on an object due to gravity towards the centre of the earth, i.e., in the vertically downward direction. Therefore, statement II is correct."
+  },
+  {
+    "id": 13,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-02)",
+    "question": "Which of the following statement is an example of contact force? I. Electrostatic force II. Friction",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "b",
+    "explanation": "Friction is that contact force which opposes the relative motion between two surfaces when they come in contact with each other. Example: Friction between shoes and the ground while walking on the road, stopping of a vehicle upon applying brakes."
+  },
+  {
+    "id": 14,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-03)",
+    "question": "What is the force acting on a unit area of a surface called?",
+    "options": [
+      "Force density",
+      "Pressure",
+      "Weight",
+      "Work"
+    ],
+    "answer": "b",
+    "explanation": "The force acting on a unit area of a surface is called pressure. The amount of force distributed over a volume or area is called force density. The gravitational force exerted by the earth on an object is called weight. When there is displacement in an object under the influence of a force, it is called work done."
+  },
+  {
+    "id": 15,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 21/11/2025 (Shift-03)",
+    "question": "Which of the following statement is correct regarding force? I. If an unbalanced force is applied on the object, there will be a change either in its speed or in the direction of its motion. II. To accelerate the motion of an object, a balanced force is required.",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "a",
+    "explanation": "A change in the motion or the direction of an object is possible only by an unbalanced force, as it disrupts the object’s state of rest or uniform motion. The net force of balanced forces is zero, therefore it cannot accelerate the object but can only change its shape."
+  },
+  {
+    "id": 16,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 22/11/2025 (Shift-02)",
+    "question": "What is a disadvantage of friction?",
+    "options": [
+      "It increases speed",
+      "It improves machinery efficiency",
+      "It prevents objects from wearing out",
+      "It causes wear and tear of materials"
+    ],
+    "answer": "d",
+    "explanation": "The main disadvantage of friction is that it causes wear and tear, which reduces their lifespan and leads to the wastage of energy."
+  },
+  {
+    "id": 17,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 30/11/2025 (Shift-03)",
+    "question": "A force of 10 N acts on an object. The object is displaced by 2 metres in the direction of the force. The force acts on the object all through the displacement. What is the work done?",
+    "options": [
+      "5 J",
+      "10 J",
+      "15 J",
+      "20 J"
+    ],
+    "answer": "d",
+    "explanation": "Given Information: F = 10 N, d = 2 m, θ = 00 Equation: W = F × d × cosθ = 10 × 2 × 1 = 20 J Note: 1 Joule = 1 Newton metre"
+  },
+  {
+    "id": 18,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 12/09/2025 (Shift-02)",
+    "question": "If Earth’s radius were reduced by 1% while its mass remained unchanged, what would be the effect on the gravitational acceleration at its surface?",
+    "options": [
+      "Increase by approximately 1%",
+      "Decrease by approximately 2%",
+      "Increase by approximately 2%",
+      "Decrease by approximately 1%"
+    ],
+    "answer": "c",
+    "explanation": "If g ∝ 1/R2 and there is a change of 2x% inverse change in g. Therefore, if the radius of the Earth R is decreased by 1%, then the acceleration due to gravity g increases by approximately 2%."
+  },
+  {
+    "id": 19,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 25/09/2025 (Shift-02)",
+    "question": "A ball is thrown vertically upwards with an initial velocity of 10 m/s. Ignoring air resistance, what is the maximum height it will reach? (Assume g = 9.8 m/s²)",
+    "options": [
+      "1.02 m",
+      "5.10 m",
+      "10.2 m",
+      "20.4 m"
+    ],
+    "answer": "b",
+    "explanation": "Given data: Initial velocity u = 10 m/s, acceleration due to gravity g = 9.8 m/s² Formula for maximum height: hmax = u2/2g hmax = (10)2/2×9.8 = 100/19.6 = 5.10m"
+  },
+  {
+    "id": 20,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-01)",
+    "question": "What is the difference between displacement and distance?",
+    "options": [
+      "Distance includes direction; displacement does not",
+      "Displacement includes direction; distance does not",
+      "Both are scalar quantities",
+      "Both are vector quantities"
+    ],
+    "answer": "b",
+    "explanation": "Distance: The total length of the actual path covered by a moving object in a certain time is called distance; it is a scalar quantity. Distance depends on the nature of the path and is always positive. Displacement: The minimum perpendicular distance between the initial position and the final position of an object is called displacement; it is a vector quantity. It depends only on the change in position and can be positive, negative, or zero."
+  },
+  {
+    "id": 21,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 12/09/2025 (Shift-01)",
+    "question": "For a rigid body, the angular velocity of any particle about a given axis of rotation is:",
+    "options": [
+      "Proportional to its distance from the axis",
+      "The same for all particles",
+      "Inversely proportional to its distance from the axis",
+      "Always zero"
+    ],
+    "answer": "b",
+    "explanation": "For a rigid body, the angular velocity of all its particles remains the same about a fixed axis of rotation. Although the linear velocity of the particles (v = ω×r) depends on the distance from the axis, the angular velocity (ω) remains the same for all."
+  },
+  {
+    "id": 22,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 12/09/2025 (Shift-02)",
+    "question": "What specific physical quantity ensures a satellite maintains its orbit without continuous propulsion?",
+    "options": [
+      "Mass",
+      "Gravitational pull",
+      "Orbital velocity",
+      "Atmospheric drag"
+    ],
+    "answer": "c",
+    "explanation": "A satellite remains in its orbit without continuous propulsion because its orbital velocity is so appropriate that the Earth’s gravitational pull provides it with the necessary centripetal force. If the orbital velocity is not correct, the satellite will either fall back to Earth or escape from the orbit."
+  },
+  {
+    "id": 23,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 14/09/2025 (Shift-01)",
+    "question": "It is difficult to start motion with a heavy box and also difficult to stop it once it’s moving. This best exemplifies:",
+    "options": [
+      "The concept of power",
+      "Conservation of energy",
+      "Property of inertia",
+      "Action-reaction principle"
+    ],
+    "answer": "c",
+    "explanation": "It being difficult to move a heavy box and difficult to stop it once it is in motion, both indicate the tendency of an object to resist a change in its state of motion. This property is called inertia."
+  },
+  {
+    "id": 24,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-02)",
+    "question": "Newton’s third law of motion states that_______.",
+    "options": [
+      "For every action, there is an equal and opposite reaction",
+      "For every action, the reaction is opposite but greater in magnitude",
+      "The rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of force",
+      "An object in motion remains in motion unless acted upon by a force"
+    ],
+    "answer": "a",
+    "explanation": "Newton’s first law of motion: An object remains in a state of rest or of uniform motion in a straight line unless compelled to change that state by an applied external unbalanced force. • Newton’s second law of motion: The rate of change of momentum of an object is proportional to the applied unbalanced force in the direction of force. This defines force: • F = ma (Force = mass × acceleration) • Newton’s third law of motion: To every action, there is an equal and opposite reaction."
+  },
+  {
+    "id": 25,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-03)",
+    "question": "What does a change in either the speed or direction of an object signify?",
+    "options": [
+      "A change in its mass",
+      "A change in its state of motion",
+      "A change in its shape",
+      "A change in its temperature"
+    ],
+    "answer": "b",
+    "explanation": "According to Newton, an external unbalanced force acting on an object changes its state of motion. If the speed of the object increases or decreases, or its direction changes, it is called a change in the state of motion. • Example: The slowing down or changing direction of a car moving on the road upon applying brakes, or a ball turning due to a force, are examples of a change in the state of motion."
+  },
+  {
+    "id": 26,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-02)",
+    "question": "What is the formula for calculating the momentum of an object? (p momentum, m mass, a acceleration, v = velocity)",
+    "options": [
+      "p = m/a",
+      "p = ma",
+      "p = mv",
+      "p = m/v"
+    ],
+    "answer": "c",
+    "explanation": "The product of the mass and velocity of an object is called momentum. It is a vector quantity, which means it has both magnitude and direction. Formula: p = mv SI unit: kilogram-meter per second (kg ·m/s)"
+  },
+  {
+    "id": 27,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-03)",
+    "question": "The statement given below signifies which of the law/principle given in the options. “An object remains in a state of rest or of uniform motion in a straight line unless compelled to change that state by an applied force.”",
+    "options": [
+      "First law of motion",
+      "Second law of motion",
+      "Third law of motion",
+      "Bernoulli’s principle"
+    ],
+    "answer": "a",
+    "explanation": "The first law of motion is also called the law of inertia. According to this, any object remains in its current state of motion or state of rest until an external force is applied to it. Example: If a ball is placed on a flat floor, it remains at rest until someone pushes it."
+  },
+  {
+    "id": 28,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-01)",
+    "question": "Which force governs the motion of planets, stars, and galaxies?",
+    "options": [
+      "Nuclear force",
+      "Gravitational force",
+      "Magnetic force",
+      "Electromagnetic force"
+    ],
+    "answer": "b",
+    "explanation": "• It is the gravitational force that creates the attraction between planets, stars, and galaxies, causing them to move in their orbits and maintaining the structure of the universe."
+  },
+  {
+    "id": 29,
+    "subject": "Science",
+    "topic": "Force, Work and Energy",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-02)",
+    "question": "Which of the following quantities remains conserved when an object moves under the gravitational pull of another object?",
+    "options": [
+      "Only linear momentum",
+      "Potential energy and linear momentum",
+      "Kinetic energy and linear momentum",
+      "Angular momentum and mechanical energy"
+    ],
+    "answer": "d",
+    "explanation": "• When an object moves under the influence of gravity, the turning force (torque) acting on it is zero, due to which its angular momentum remains constant. Gravity is a conservative force, therefore the total mechanical energy (kinetic + potential energy) of the object also remains conserved."
+  },
+  {
+    "id": 30,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 22/11/2025 (Shift-01)",
+    "question": "The object covers unequal distances in equal intervals of time, it is said to be in______ motion.",
+    "options": [
+      "uniform",
+      "linear",
+      "non-uniform",
+      "circular"
+    ],
+    "answer": "c",
+    "explanation": "When an object covers unequal distances in equal intervals of time, its motion is said to be non-uniform motion. This is because, in this situation, the velocity of the object changes continuously. For example, a car moving on a crowded street exhibits non-uniform motion because it has to frequently increase or decrease its speed."
+  },
+  {
+    "id": 31,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 22/11/2025 (Shift-03)",
+    "question": "During the free fall of an object, as it falls, what happens to its potential energy and kinetic energy?",
+    "options": [
+      "Both potential energy and kinetic energy decrease",
+      "Both potential energy and kinetic energy increase",
+      "Potential energy decreases while kinetic energy increases",
+      "Potential energy increases while kinetic energy decreases"
+    ],
+    "answer": "c",
+    "explanation": "When an object falls freely, according to the Law of Conservation of Energy, its total mechanical energy remains constant. As the object descends, its potential energy (mgh) decreases because its height (h) from the ground reduces.Simultaneously, the velocity (v) of the object increases continuously due to gravity, which causes its kinetic energy 2 1 mv 2       to increase. In simple terms, the potential energy of the object is being transformed into kinetic energy."
+  },
+  {
+    "id": 32,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-02)",
+    "question": "Why does a skilled cricketer move his hands backwards while catching a fast- moving ball?",
+    "options": [
+      "To apply a greater opposing force on the ball for a quick stop.",
+      "To reduce the force by increasing the time over which momentum changes.",
+      "To increase the speed of the ball during impact.",
+      "To decrease the weight of the ball using gravity."
+    ],
+    "answer": "b",
+    "explanation": "When a cricketer pulls the hands backward, the time taken to stop the ball increases. As the time increases, the force of the ball on the hands decreases, so the player does not get injured. If the hands are kept rigid, the time will be very small and the force will be so large that it may cause a serious injury to the palms. This is based on Newton’s Second Law of Motion."
+  },
+  {
+    "id": 33,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-02)",
+    "question": "When focusing on a tree while on an anti-clockwise merry-go-round, from which side does it appear and exit?",
+    "options": [
+      "Right to Left",
+      "Always visible",
+      "Never visible",
+      "Left to Right"
+    ],
+    "answer": "a",
+    "explanation": "When you turn in the opposite direction of the clock (counter- clockwise), your body moves to the left and bends, and your field of vision increases towards the left. In this relative motion (Relative Motion), the stationary object (tree) appears to enter your field of vision from the left and move out towards the right."
+  },
+  {
+    "id": 34,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 25/07/2025 (Shift-03)",
+    "question": "Which of the following scenarios best illustrates the principle of conservation of momentum?",
+    "options": [
+      "A ball rolling down a frictionless incline increases its speed.",
+      "A car comes to a stop when the brakes are applied due to friction.",
+      "When a bullet is fired from a gun, the gun recoils in the opposite direction.",
+      "A satellite maintains a stable orbit around the Earth due to gravity."
+    ],
+    "answer": "c",
+    "explanation": "According to the Law of Conservation of Momentum, “if no external force acts on a system, the total momentum of that system remains constant.” • When a bullet is fired from a gun, both are initially at rest. Upon firing, the bullet moves forward with a high velocity. To balance (conserve) the momentum, the gun moves backwards with an equal and opposite momentum. This backward movement is known as the recoil of the gun."
+  },
+  {
+    "id": 35,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 31/07/2025 (Shift-03)",
+    "question": "A car accelerates uniformly from rest to a speed of 20 m/s in 5 seconds. What is the magnitude of its acceleration?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "10 m/s²",
+      "25 m/s²"
+    ],
+    "answer": "b",
+    "explanation": "Initial Velocity (u): 0 m/s Final Velocity (v): 20 m/s Time (t): 5 seconds 20 0 5 a − = 5 a = a= 4 m/s²"
+  },
+  {
+    "id": 36,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-02)",
+    "question": "Which statement best explains Newton’s Third Law of Motion?",
+    "options": [
+      "Force mass acceleration",
+      "Energy cannot be created or destroyed",
+      "For every action, there is an equal and opposite reaction",
+      "The acceleration is inversely proportional to mass"
+    ],
+    "answer": "c",
+    "explanation": "To every action, there is an equal and opposite reaction; this statement most appropriately explains Newton’s Third Law of Motion. According to the law, if object A exerts a force on object B, then object B also exerts an equal force on object A in the opposite direction. Examples in daily life: • Walking: We push the ground backward (action), and the ground pushes us forward (reaction). • Swimming: We pull the water back with our hands, and the water pushes us forward."
+  },
+  {
+    "id": 37,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 25/07/2025 (Shift-02)",
+    "question": "A stone is moving in a circular path with constant speed. Which of the following statements about its motion is correct?",
+    "options": [
+      "The stone has zero acceleration because its speed is constant.",
+      "The direction of the stone’s velocity remains unchanged.",
+      "The stone experiences a constant acceleration directed towards the centre of the circle",
+      "The motion of the stone is considered non-uniform because its speed varies."
+    ],
+    "answer": "c",
+    "explanation": "When an object moves along a circular path with a constant speed, it is called uniform circular motion. • Although the speed is constant, the velocity keeps changing due to the continuous change in direction, making it an accelerated motion. In this type of motion, the centripetal acceleration that keeps the object on the circular path always acts towards the centre of the circle."
+  },
+  {
+    "id": 38,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 26/07/2025 (Shift-02)",
+    "question": "What happens to the kinetic energy of a moving object if its velocity is tripled?",
+    "options": [
+      "It becomes 6 times",
+      "It becomes 9 times",
+      "It becomes 3 times",
+      "It becomes 12 times"
+    ],
+    "answer": "b",
+    "explanation": "The formula for Kinetic Energy is K = 1 2 mv2, which clearly shows that kinetic energy is directly proportional to the square of the object’s speed (v). If the speed is tripled (3v), the new kinetic energy will become (3)2 = 9 times."
+  },
+  {
+    "id": 39,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 30/07/2025 (Shift-03)",
+    "question": "A transformer works on the principle of:",
+    "options": [
+      "Ohm’s Law",
+      "Faraday’s Law of Electromagnetic Induction",
+      "Lenz’s Law",
+      "Conservation of Charge"
+    ],
+    "answer": "b",
+    "explanation": "A transformer works on the principle of Faraday’s Law of Electromagnetic Induction, and specifically on the principle of mutual induction. • Ohm’s Law states that current increases as voltage increases, and current decreases as resistance increases.V = IR Where V is Voltage, I is Current, and R is Resistance. • Lenz’s Law indicates the direction of the induced current. • Conservation of Charge means that electric charge can neither be created nor destroyed."
+  },
+  {
+    "id": 40,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 13/09/2025 (Shift-01)",
+    "question": "Why are cooking utensils often made with a copper bottom?",
+    "options": [
+      "Copper is a good insulator , preventing heat loss.",
+      "Copper has a low melting point , making it easy to manufacture",
+      "Copper is a good conductor of heat, ensuring even heating",
+      "Copper reacts readily with food , enhancing flavour"
+    ],
+    "answer": "c",
+    "explanation": "Copper is a metal with high thermal conductivity. This means that it spreads heat quickly and evenly. Therefore, utensils with copper bottoms help in cooking food evenly and quickly."
+  },
+  {
+    "id": 41,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 16/09/2025 (Shift-02)",
+    "question": "If the resistance of a conductor is doubled while keeping the potential difference across its ends constant, what will happen to the current flowing through it?",
+    "options": [
+      "It will double",
+      "It will halve",
+      "It will remain unchanged",
+      "It will quadruple"
+    ],
+    "answer": "b",
+    "explanation": "According to Ohm’s law, I = V/R, if the resistance R is doubled while keeping the potential difference V constant, the current I flowing through the conductor becomes half."
+  },
+  {
+    "id": 42,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 20/09/2025 (Shift-01)",
+    "question": "A 60 W electric lamp is used for 5 hours daily. Calculate the energy consumed in ‘units’ (kilowatt-hours) in 30 days.",
+    "options": [
+      "9 units",
+      "30 units",
+      "0.3 units",
+      "90 units"
+    ],
+    "answer": "a",
+    "explanation": "Given: Power (P) = 60 Watts (W), Time (T) = 5 hours/day ×30 days = 150 hours Calculation of Energy: Energy (E) = P×T E = 60 W ×150 h = 9000 Watt-hours (Wh) To convert Wh into kWh, we divide by 1000, because 1 Unit = 1 kWh = 1000 Wh. • Therefore, Energy (E) = 9000wh/1000 = 9 kWh. • In electricity bills, the energy consumed is always expressed in kWh (Units)."
+  },
+  {
+    "id": 43,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 21/09/2025 (Shift-03)",
+    "question": "Why is nichrome commonly used as the heating element in electric heaters?",
+    "options": [
+      "It has low resistivity and a high melting point",
+      "It has high resistivity and a low melting point",
+      "It offers high resistivity and a high melting point",
+      "It offers low resistivity and a low melting point"
+    ],
+    "answer": "c",
+    "explanation": "Nichrome (Ni–Cr alloy) is used in electric heaters because it has high resistivity, which allows it to produce sufficient heat even with a low current. Additionally, it has a high melting point, enabling it to withstand high temperatures and remain functional for a long duration."
+  },
+  {
+    "id": 44,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 26/09/2025 (Shift-01)",
+    "question": "Two resistors, one with a resistance of 2 ohms and the other with a resistance of 4 ohms, are connected in parallel to a 6-volt battery. What is the total current flowing through the circuit?",
+    "options": [
+      "1 Ampere",
+      "2 Amperes",
+      "3 Amperes",
+      "4.5 Amperes"
+    ],
+    "answer": "d",
+    "explanation": "In a parallel circuit, the potential difference (V) remains the same across each resistor. Given: V = 6 volts R1 = 2 Ω, R2 = 4 Ω Current in each resistor: I1 = V/R1 = 6/2 = 3A I2 = V/R2 = 6/4 = 1.5A Total current: Itotal = I1 + 12 = 3 + 1.5 = 4.5 A"
+  },
+  {
+    "id": 45,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-03)",
+    "question": "Two resistors named R1 and R2, are connected in parallel. If R1 < R2, what can be inferred about the current flowing through them, given the same potential difference across both?",
+    "options": [
+      "Current through R1 is less than through R2.",
+      "Current through R1 is equal to current through R2.",
+      "Current through R1 is greater than through R2.",
+      "The current ratio depends on the supply voltage."
+    ],
+    "answer": "c",
+    "explanation": "In a parallel combination, since the potential difference is the same, more current flows through the resistor with lower resistance, because current is inversely proportional to resistance (I = V/R). If R1 < R2 (lower resistance), then the current flowing through R1 will be more than the current flowing through R2."
+  },
+  {
+    "id": 46,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 28/07/2025 (Shift-02)",
+    "question": "Which of the following statements best describes the relationship between velocity and acceleration in different dimensions?",
+    "options": [
+      "In one-dimensional motion, velocity and acceleration are always perpendicular to each other.",
+      "In two-dimensional motion, acceleration must always act opposite to velocity.",
+      "In one-dimensional motion, velocity and acceleration lie along the same line, either in the same or opposite direction.",
+      "In three-dimensional motion, velocity and acceleration must always act in the same direction"
+    ],
+    "answer": "c",
+    "explanation": "If acceleration is in the same direction as velocity, the object speeds up. If acceleration is in the opposite direction to velocity, the object slows down. Since the motion is along a straight line, velocity and acceleration will either be in the same direction or in exactly opposite directions."
+  },
+  {
+    "id": 47,
+    "subject": "Science",
+    "topic": "Motion",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 30/07/2025 (Shift-01)",
+    "question": "Which principle explains how rockets are propelled forward when fuel is ejected in the opposite direction?",
+    "options": [
+      "Newton’s First law of Motion",
+      "Law of Conservation of Mass",
+      "Newton’s Third law of Motion",
+      "Law of Gravitationi"
+    ],
+    "answer": "c",
+    "explanation": "Newton’s Third Law states that “to every action, there is always an equal and opposite reaction.” • When a rocket burns fuel and ejects gases rapidly backwards (downwards), it is the action. In response, the gases exert an equal upward force on the rocket, which is the reaction, propelling it forward."
+  },
+  {
+    "id": 48,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-02)",
+    "question": "An electric kettle is rated 2.2 kW, 220V. If the cost of electricity is 4 per unit (kWh), what is the cost of boiling water for 30 minutes?",
+    "options": [
+      "`1.1",
+      "`2.2",
+      "`8.8",
+      "`4.4"
+    ],
+    "answer": "d",
+    "explanation": "The cost of running a 2.2 kW electric kettle for 30 minutes is `4.4, because it consumes 1.1 kWh (units) of energy (2.2 kW × 0.5 hours) and the rate is `4 per unit. Calculation: Electricity consumption: 2.2 kW × 0.5 hour (30 minutes) = 1.1 kWh Total cost: 1.1 kWh × `4/kWh = `4.4"
+  },
+  {
+    "id": 49,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-03)",
+    "question": "A conductor of length L and resistance R is cut into two equal halves. These two halves are then connected in parallel. Find the equivalent resistance of this parallel combination?",
+    "options": [
+      "R/4",
+      "R",
+      "R/2",
+      "R/8"
+    ],
+    "answer": "a",
+    "explanation": "When a conductor is cut into two equal parts, each part has resistance R/2 due to the halving of its length. When two equal resistances (Rp) are connected in parallel, their total resistance becomes half: R R R = = = 1 2 2 2 4 R / eq • In parallel combination, due to the increase in the number of resistors and the decrease in their length, the total resistance becomes one-fourth (1/4) of the original resistance."
+  },
+  {
+    "id": 50,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-02)",
+    "question": "A heating element of a heater is made of a material with high resistivity and high melting point. Which of the following material properties is most crucial for its function as a heating element?",
+    "options": [
+      "High modulus of elasticity",
+      "High thermal conductivity",
+      "Low specific heat capacity",
+      "High resistivity"
+    ],
+    "answer": "d",
+    "explanation": "For the heating element of any heater, high resistivity is the most important property because according to Joule’s law of heating, the heat produced is proportional to the resistance: H = I2Rt • Where, H = Heat, I = Electric current, R = Resistance of the conductor, t = Time"
+  },
+  {
+    "id": 51,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 30/07/2025 (Shift-02)",
+    "question": "To modify the magnitude of an alternating voltage without altering its frequency, which principle is applied in the functioning transformer?",
+    "options": [
+      "Self-induction",
+      "Electromagnetic radiation",
+      "Mutual induction",
+      "Capacitive coupling"
+    ],
+    "answer": "c",
+    "explanation": "A transformer is based on the principle of mutual induction. When the current changes in the primary coil, a voltage is induced in the secondary coil placed nearby due to the magnetic effect. This is known as mutual induction."
+  },
+  {
+    "id": 52,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 31/07/2025 (Shift-02)",
+    "question": "What happens to the resistance of a conductor as temperature increases?",
+    "options": [
+      "It decreases",
+      "It increases",
+      "It remains the same",
+      "It fluctuates"
+    ],
+    "answer": "b",
+    "explanation": "When the temperature of a conductor (such as copper, iron, aluminium) increases, its resistance also increases because high heat causes atoms to vibrate more rapidly. • These vibrations obstruct the flow of free electrons, increasing the number of collisions between electrons and atoms. These increased collisions hinder the flow of electrons, leading to an increase in resistance."
+  },
+  {
+    "id": 53,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 01/08/2025 (Shift-02)",
+    "question": "If the length of a wire is doubled and its thickness (cross-sectional area) is reduced to half, what will be the effect on its electrical resistance?",
+    "options": [
+      "It becomes one-fourth",
+      "It remains unchanged",
+      "It becomes four times",
+      "It becomes half"
+    ],
+    "answer": "c",
+    "explanation": "Resistance (R) is given by R = ρ l A . If length (l) is doubled and area (A) is halved, the new resistance R’ becomes ρ 2 2 l A / = 4ρ l A = 4R. Ans. (c)    r 1 2 2  "
+  },
+  {
+    "id": 54,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025",
+    "question": "The equation F = k q q   defines which law? (where F is the attractive or repelling electric force between two point charges q1 and q2 and is the distance between the two charges)",
+    "options": [
+      "Bayes-Servat’s Law",
+      "Charles’s Law",
+      "Ohm’s Law",
+      "Coulomb’s Law"
+    ],
+    "answer": "d",
+    "explanation": "According to the law : The force F between two point charges is directly proportional to the product of the magnitudes of the charges (q1 and q2). The force is inversely proportional to the square of the distance r between the charges.    r 1 2 2   It is expressed as :- F =k q q  "
+  },
+  {
+    "id": 55,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 16/09/2025 (Shift-01)",
+    "question": "Which of the following pairs is correctly matched regarding electromagnetic devices?",
+    "options": [
+      "Electric Generator: Converts electrical energy to mechanical energy",
+      "Transformer: Operates on DC current to change voltage",
+      "Electromagnet: A permanent magnet",
+      "Electric Bell: Uses the magnetic effect of electric current"
+    ],
+    "answer": "d",
+    "explanation": "An electric bell works on the principle of the magnetic effect of electric current. When an electric current flows through the coil of the bell, it creates an electromagnet which attracts an armature, causing the hammer to strike the bell and produce sound."
+  },
+  {
+    "id": 56,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-03)",
+    "question": "According to Lenz’s Law, what determines the direction of an induced current in a conductor?",
+    "options": [
+      "It continuously reduces the applied magnetic flux.",
+      "It always enhances the existing magnetic field.",
+      "It flows to oppose the variation in magnetic flux causing it.",
+      "It is proportional to the strength of the magnetic field."
+    ],
+    "answer": "c",
+    "explanation": "Lenz’s law essentially states that the direction of the induced electric current in a conductor is always such that it opposes the cause of its production, i.e., the change in magnetic flux. This law follows the principle of conservation of energy in physics."
+  },
+  {
+    "id": 57,
+    "subject": "Science",
+    "topic": "Current",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "Which of the following statement/s is/are true? Statement (1): Ampere’s Law describes the relationship between electric current and the magnetic field produced by it. (2): Maxwell’s equations are a set of four fundamental equations that govern electric and magnetic fields in the absence of charges or currents.",
+    "options": [
+      "Only statement 2",
+      "Neither statement 1 nor 2",
+      "Both statement 1 and 2",
+      "Only statement 1"
+    ],
+    "answer": "d",
+    "explanation": "In the given statement, the first part is true and the second part is false because Maxwell’s equations are universal. They describe how fields are generated in the presence of electric charges (ρ) and currents (J), and in their absence, they explain how fields (such as electromagnetic waves) propagate."
+  },
+  {
+    "id": 58,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I,10/12/2025 (Shift-02)",
+    "question": "Read the following statements about the de Broglie hypothesis and wave- particle duality: 1. As a particle’s momentum increases, its associated de Broglie wavelength becomes shorter. 2. The de Broglie wavelength is significant for macroscopic objects moving at high speeds. 3. The wave-particle duality applies to photons but not to material particles.",
+    "options": [
+      "1 only",
+      "1 and 2 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": "a",
+    "explanation": "De-Broglie wavelength is given by λ = h/p therefore, as momentum increases, the wavelength decreases. This effect is significant only for microscopic particles. Statement 1 is correct. For macroscopic objects, the de-Broglie wavelength is extremely small, and hence it is neither significant nor observable. Wave-particle duality applies to photons as well as physical particles (such as electrons), the evidence for which is electron diffraction."
+  },
+  {
+    "id": 59,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 18/09/2025 (Shift-03)",
+    "question": "There is a threshold frequency below which no photoemission occurs, regardless of light intensity. Which of the above statements are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": "b",
+    "explanation": "The kinetic energy of emitted photo-electrons does not increase with an increase in the intensity of light; rather, it depends on the frequency of light. • The photoelectric effect proves the particle (photon) nature of light. • There exists a threshold frequency, below which no photo-emission takes place, no matter how high the intensity of light is. • Photon energy: E = hf, where h = Planck’s constant and f = frequency. • Maximum energy of photo-electron: Kmax = hf – φ, where φ = work function of the substance."
+  },
+  {
+    "id": 60,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-03)",
+    "question": "The least distance of distinct vision for a normal human eye is approximately:",
+    "options": [
+      "2.5 cm",
+      "25 cm",
+      "2.5 m",
+      "25 m"
+    ],
+    "answer": "b",
+    "explanation": "The least distance of distinct vision is the minimum distance at which an object can be seen clearly by a normal human eye without any strain. For a normal human eye, the least distance of distinct vision is approximately 25 cm. Objects placed at a distance less than this are not clearly visible to a normal eye."
+  },
+  {
+    "id": 61,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 21/09/2025 (Shift-01)",
+    "question": "Which mirror type is used in solar furnaces to focus sunlight?",
+    "options": [
+      "Convex",
+      "Plane",
+      "Concave",
+      "Biconvex"
+    ],
+    "answer": "c",
+    "explanation": "In solar furnaces, concave mirrors are used to concentrate sunlight at a point, which produces a high temperature (approximately 3500°C)."
+  },
+  {
+    "id": 62,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 25/09/2025 (Shift-01)",
+    "question": "How does a concave mirror form an image when an object is located at its centre of curvature?",
+    "options": [
+      "Real, inverted and diminished",
+      "Real, inverted and same size",
+      "Virtual, erect and magnified",
+      "Real, erect and diminished"
+    ],
+    "answer": "b",
+    "explanation": "When an object is placed at the center of curvature of a concave mirror, the image formed is real, inverted, and of the same size. Reason: There is a specific geometric relationship between the object at the center of curvature and the focus of the mirror, due to which the rays after reflection meet at the same distance."
+  },
+  {
+    "id": 63,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 25/09/2025 (Shift-03)",
+    "question": "A person needs spectacles with a power of -2.5 D. This indicates that the person is suffering from:",
+    "options": [
+      "Hypermetropia (farsightedness) and needs a converging lens.",
+      "Myopia (nearsightedness) and needs a diverging lens.",
+      "Presbyopia and needs a bifocal lens.",
+      "Astigmatism and needs a cylindrical lens."
+    ],
+    "answer": "b",
+    "explanation": "If a person requires spectacles with a power of 2.5 D (dioptre), it indicates that they have myopia (nearsightedness) and require a diverging (concave) lens, because negative (-) power corrects myopia and a concave lens diverges light."
+  },
+  {
+    "id": 64,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 13/09/2025 (Shift-02)",
+    "question": "When light enters from air into a medium, its speed changes. Which of the following properties of light remains constant during this transition?",
+    "options": [
+      "Wavelength",
+      "Frequency",
+      "Speed",
+      "Amplitude"
+    ],
+    "answer": "b",
+    "explanation": "When light enters from one medium to another, its velocity (v) and wavelength (λ) change because v = f λ. However, the frequency (ƒ) remains constant, as it is determined by the source and is not affected by the change in medium."
+  },
+  {
+    "id": 65,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-02)",
+    "question": "Which of the following phenomena occurs when a wave passes through a narrow slit?",
+    "options": [
+      "Refraction",
+      "Reflection",
+      "Absorption",
+      "Diffraction"
+    ],
+    "answer": "d",
+    "explanation": "When a wave (such as light or sound) passes through a narrow aperture or around a sharp edge, it bends slightly at the edges and spreads into the region of the geometrical shadow. This phenomenon of the bending of waves is called diffraction."
+  },
+  {
+    "id": 66,
+    "subject": "Science",
+    "topic": "Light",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 28/07/2025 (Shift-03)",
+    "question": "The phenomenon of total internal reflection can occur when light travels from:",
+    "options": [
+      "A rarer medium to a denser medium at any angle of incidence.",
+      "A denser medium to a rarer medium at any angle of incidence.",
+      "A rarer medium to a denser medium at an angle of incidence greater than the critical angle.",
+      "A denser medium to a rarer medium at an angle of incidence greater than the critical angle."
+    ],
+    "answer": "d",
+    "explanation": "• Total Internal Reflection (TIR) is the phenomenon in which a ray of light, after striking a surface, returns back into the same medium instead of being refracted into the second medium. • When light attempts to exit from a denser medium and the angle of incidence is very large (greater than the critical angle), it bends back inside instead of going out. This is known as Total Internal Reflection."
+  },
+  {
+    "id": 67,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-03)",
+    "question": "The Doppler effect describes the change in observed frequency of a wave when there is relative motion between the source of the wave and the observer. Which of the following scenarios illustrates the Doppler effect for sound?",
+    "options": [
+      "Light from a distant star appears shifted towards the red end of the spectrum.",
+      "A stationary observer hears a change in the pitch of a siren as an ambulance passes by",
+      "Water waves bend as they move from deep to shallow water.",
+      "Sunlight is dispersed into different colors when it passes through a prism."
+    ],
+    "answer": "b",
+    "explanation": "The Doppler effect occurs when there is a relative motion between the source of sound or light and the observer. • Due to this motion, the apparent frequency of the wave appears to change. • When an ambulance approaches a stationary person, the sound waves are compressed, leading to an increase in frequency. As it moves away, the waves stretch out (spread), and the frequency decreases."
+  },
+  {
+    "id": 68,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 14/09/2025 (Shift-03)",
+    "question": "A person standing on a railway platform notices that the sound of an approaching train’s whistle changes in pitch (frequency) as the train passes by. This phenomenon is best explained by:",
+    "options": [
+      "Refraction of sound",
+      "Diffraction of sound",
+      "Doppler effect",
+      "Resonance"
+    ],
+    "answer": "c",
+    "explanation": "When a train passes by a person standing on a platform, the apparent frequency (pitch) of the sound waves changes due to the relative motion between the source (train) and the observer. • The pitch sounds higher as it approaches and lower as it moves away. This change is called the Doppler effect."
+  },
+  {
+    "id": 69,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-02)",
+    "question": "What change occurs when sound passes from air into water?",
+    "options": [
+      "Frequency remains unchanged, but wavelength varies",
+      "Frequency increases while wavelength stays constant",
+      "Both frequency and wavelength decrease",
+      "Speed decreases while frequency increases"
+    ],
+    "answer": "a",
+    "explanation": "When sound enters from one medium to another (Air → Water), the frequency remains constant because it depends on the source. The speed of sound increases in water, therefore according to v = fλ the wavelength changes (actually increases)."
+  },
+  {
+    "id": 70,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 16/09/2025 (Shift-03)",
+    "question": "If the speed of sound in a medium is 340 m/s and a sound wave has a frequency of 680 Hz, what is its wavelength?",
+    "options": [
+      "0.5 m",
+      "2 m",
+      "20 m",
+      "50 m"
+    ],
+    "answer": "a",
+    "explanation": "The formula for a sound wave is: v = fλ Given: Speed of sound v = 340 m/s Frequency f = 680 Hz Now, = f 340 680 = 0.5 meter"
+  },
+  {
+    "id": 71,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 23/09/2025 (Shift-01)",
+    "question": "What happens to the perceived frequency when both the source and the listener move with the same speed in the same direction?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains unchanged",
+      "It fluctuates rapidly"
+    ],
+    "answer": "c",
+    "explanation": "When both the source and the observer move in the same direction with the same speed, there is no relative motion between them. Therefore, the observed frequency remains unchanged, meaning it is equal to the original frequency."
+  },
+  {
+    "id": 72,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 23/09/2025 (Shift-03)",
+    "question": "What is the audible frequency range for the human ear?",
+    "options": [
+      "0-10,000 Hz",
+      "20-20,000 Hz",
+      "2 kHz-20 kHz",
+      "100-1,000 Hz"
+    ],
+    "answer": "b",
+    "explanation": "The human ear can generally hear frequencies from 20 Hz to 20,000 Hz. • Sound less than 20 Hz is called infrasonic, and sound more than 20,000 Hz is called ultrasonic."
+  },
+  {
+    "id": 73,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 26/09/2025 (Shift-03)",
+    "question": "A sound wave travels from air into water. How do its speed and wavelength change?",
+    "options": [
+      "Speed increases, wavelength de creases",
+      "Speed decreases, wavelength in creases",
+      "Speed increases, wavelength in creases",
+      "Speed decreases, wavelength de creases"
+    ],
+    "answer": "c",
+    "explanation": "The speed of sound is higher in water compared to air. When the medium changes, the frequency remains unchanged; therefore, according to λ = v/f as the speed increases, the wavelength also increases."
+  },
+  {
+    "id": 74,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-01)",
+    "question": "Which property of sound determines its loudness?",
+    "options": [
+      "Wavelength",
+      "Pitch",
+      "Amplitude",
+      "Frequency"
+    ],
+    "answer": "c",
+    "explanation": "The maximum displacement of particles from their original position due to a disturbance in a medium is called ‘Amplitude’. The loudness of sound is proportional to the square of the amplitude of vibration of the particles of the medium. The greater the amplitude of vibration, the louder the sound will be. Conversely, if the amplitude is small, the sound will be feeble."
+  },
+  {
+    "id": 75,
+    "subject": "Science",
+    "topic": "Sound",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-03)",
+    "question": "Read the following and choose the correct option: Assertion (A): Sound waves travel faster in steel than in air at the same temperature. Reason (R): The particles in solids (like steel) are more closely packed and experience stronger intermolecular forces compared to particles in gases (like air), allowing vibrations to be transmitted more efficiently and rapidly.",
+    "options": [
+      "A is false but R is true.",
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false."
+    ],
+    "answer": "b",
+    "explanation": "Particles of steel are much closer together and denser compared to air, which allows vibrations to move forward more rapidly. • There is a stronger pull (force of attraction) between the particles of solids, which transmits sound waves with greater efficiency and speed than in air."
+  },
+  {
+    "id": 76,
+    "subject": "Science",
+    "topic": "Heat",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 25/07/2025 (Shift-01)",
+    "question": "What remains constant during the melting process of a pure substance?",
+    "options": [
+      "Temperature",
+      "Mass",
+      "Volume",
+      "Pressure"
+    ],
+    "answer": "a",
+    "explanation": "Heat is used to overcome the forces of attraction between molecules; therefore, the temperature does not rise until the entire substance has melted. • The heat supplied is used to change the state of the substance rather than increasing its temperature, which is known as the ‘Latent Heat of Fusion’"
+  },
+  {
+    "id": 77,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 21/11/2025 (Shift-01)",
+    "question": "What happens to solid carbon dioxide (dry ice) when the pressure is decreased to 1 atmosphere?",
+    "options": [
+      "It sublimates directly into a gas.",
+      "It melts into a liquid.",
+      "It remains as a solid.",
+      "It freezes further into a solid."
+    ],
+    "answer": "a",
+    "explanation": "Solid carbon dioxide (dry ice) does not melt into a liquid state at normal pressure (1 atmosphere). • When the pressure is decreased to 1 atm, it changes directly from a solid to a gas through the process of sublimation. Therefore, solid CO2 converts directly into gas without first becoming a liquid."
+  },
+  {
+    "id": 78,
+    "subject": "Science",
+    "topic": "Heat",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-01)",
+    "question": "The amount of heat energy that is required to change 1 kg of a solid into liquid at atmospheric pressure at its melting point is known as the______ heat of fusion.",
+    "options": [
+      "latent",
+      "boiling",
+      "melting",
+      "absolute"
+    ],
+    "answer": "a",
+    "explanation": "The heat required to convert 1 kg of a solid into a liquid at its melting point at atmospheric pressure, without increasing the temperature, is known as the Latent Heat of Fusion. It is called ‘latent’ (hidden) because this heat does not increase the temperature of the substance; instead, it is consumed solely in breaking the force of attraction between particles to change their state."
+  },
+  {
+    "id": 79,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025",
+    "question": "Who discovered the laws of levers and pulleys, which help us move heavy objects from one place to another using less force?",
+    "options": [
+      "Pythagoras",
+      "Archimedes",
+      "Democritus",
+      "Eudoxus"
+    ],
+    "answer": "b",
+    "explanation": "The laws of levers and pulleys were discovered by the ancient Greek mathematician and physicist Archimedes. Archimedes said: “Give me a place to st…and, and I will move the Earth!” • He proved that by using a lever, we can lift heavy objects with less force, but the application of force must be at an appropriate distance, and by using a pulley, we can easily pull any object."
+  },
+  {
+    "id": 80,
+    "subject": "Science",
+    "topic": "Heat",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-01)",
+    "question": "Why is it generally more severe to be burnt by steam at 100°C than by boiling water at 100°C?",
+    "options": [
+      "Steam is hotter than boiling water",
+      "Steam contains more latent heat of vaporization",
+      "Steam has a higher specific heat capacity",
+      "Steam molecules are moving faster"
+    ],
+    "answer": "b",
+    "explanation": "Burns caused by steam at 100°C are more severe than those caused by boiling water at 100°C because steam contains extra energy in the form of latent heat of vaporisation. When steam condenses on the skin to form water, it releases approximately 2250 J/g of latent heat. Consequently, the skin receives more heat compared to boiling water, making the burn more severe."
+  },
+  {
+    "id": 81,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 29/08/2025 (Shift-01)",
+    "question": "If the half-life of a radioactive substance is 10 days, then the time taken for 75% of the original sample to decay is:",
+    "options": [
+      "5 days",
+      "10 days",
+      "20 days",
+      "30 days"
+    ],
+    "answer": "c",
+    "explanation": "Half-life is the time in which a substance is reduced to half (50%) of its original quantity. • A 75% decay means that only 25% (i.e., half of the half) of the sample remains. Since the substance must undergo two half-lives (50%+25%) to reach 75% decay, the total time will be 2 x 10 = 20 days."
+  },
+  {
+    "id": 82,
+    "subject": "Science",
+    "topic": "Heat",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 18/09/2025 (Shift-01)",
+    "question": "Consider the given statements regarding the behavior of ideal gases: 1. Ideal gas molecules have negligible volume compared to the total volume of the container. 2. There are strong intermolecular attractive forces between ideal gas molecules. 3. Collisions between ideal gas molecules are perfectly elastic. Which of the statements given above is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": "b",
+    "explanation": "There is no (or negligible) intermolecular force of attraction between the molecules of an ideal gas. All collisions between the molecules of an ideal gas are perfectly elastic. An ideal gas obeys the equation PV = nRT."
+  },
+  {
+    "id": 83,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-01)",
+    "question": "A conductor rod moving with a velocity v perpendicular to a uniform magnetic field B. If the length of the rod perpendicular to both v and B is L, the induced EMF across its ends is given by?",
+    "options": [
+      "BL2v",
+      "BLv",
+      "Bv /L",
+      "B /vL"
+    ],
+    "answer": "b",
+    "explanation": "The voltage produced in a rod moving perpendicularly in a magnetic field is BLV, the direction of which is determined by the right-hand rule. EMF = BLV Where; B, L and v must all be perpendicular to each other. (B = magnetic field, L = length, v = velocity)"
+  },
+  {
+    "id": 84,
+    "subject": "Science",
+    "topic": "Heat",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 19/09/2025 (Shift-02)",
+    "question": "Which statements about thermodynamic processes and heat engines is/are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": "b",
+    "explanation": "The efficiency of a Carnot (ideal) engine depends only on the temperatures of the hot and cold reservoirs (η = 1 – Tlow/T_high), and according to the Second Law of Thermodynamics, heat cannot flow from a cold object to a hot object without external work. Therefore, statements 2 and 3 are correct. • The work done in a reversible expansion is always greater than that in an irreversible expansion. Therefore, statement 1 is incorrect."
+  },
+  {
+    "id": 85,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-02)",
+    "question": "At what orientation does a rotating coil in a uniform magnetic field generate the maximum induced EMF?",
+    "options": [
+      "When the coil’s plane is at 45° to the magnetic field lines",
+      "When the magnetic flux through the coil is maximum",
+      "When the coil’s plane is perpendicular (90°) to the magnetic field lines",
+      "When the coil’s plane is parallel to the magnetic field lines"
+    ],
+    "answer": "d",
+    "explanation": "Maximum induced EMF in a coil rotating in a uniform magnetic field is produced when the plane of the coil is parallel to the magnetic field lines. • This happens because, in this position, the arms of the coil cut the magnetic field lines most rapidly, due to which the rate of change of magnetic flux becomes maximum. According to Faraday’s law, the induced voltage directly depends on this rate of change."
+  },
+  {
+    "id": 86,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 17/09/2025 (Shift-02)",
+    "question": "What happens when an ideal fluid flows through a narrowing horizontal pipe?",
+    "options": [
+      "Speed decreases, Pressure increases",
+      "Speed increases, Pressure decreases",
+      "Both Speed and Pressure increase",
+      "Both Speed and Pressure decrease"
+    ],
+    "answer": "b",
+    "explanation": "When an ideal fluid passes through the narrow section of a horizontal pipe, its velocity increases according to the equation of continuity. According to Bernoulli’s principle, as the velocity increases, the pressure decreases."
+  },
+  {
+    "id": 87,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-01)",
+    "question": "An object weighs 18 N when measured on the surface of the earth. What would be its weight when measured on the surface of the moon?",
+    "options": [
+      "1 N",
+      "3 N",
+      "7 N",
+      "9 N"
+    ],
+    "answer": "b",
+    "explanation": "The weight of an object on the moon is 1/6th of its weight on Earth. Given weight on Earth = 18 N 18 6 = 3N Ans. (b) Calculation: Weight on the moon ="
+  },
+  {
+    "id": 88,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 21/11/2025 (Shift-01)",
+    "question": "Which of the following statement state the importance of the universal law of gravitation? I. The motion of planets around the Sun II. The tides due to the moon and the Sun",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "a",
+    "explanation": "The universal law of gravitation explains the force of attraction between the sun and the planets, due to which planets revolve around the sun in their orbits. • This law also explains the attraction of the moon and the sun on the earth, which causes tides in the oceans."
+  },
+  {
+    "id": 89,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 25/11/2025 (Shift-01)",
+    "question": "A girl with 50 kg mass climbs up a rope through a height of 5 metres. She takes 25 s to accomplish the task. What is the power (in watts) expended by the girl?",
+    "options": [
+      "49",
+      "98",
+      "68.6",
+      "88.2"
+    ],
+    "answer": "b",
+    "explanation": "Given information: Mass, m = 50 kg Height, h = 5 meters Time, t = 25 seconds Acceleration due to gravity, g = 9.8 m/s² Find Force Force = Mass × Gravity = 50 × 9.8 = 490 Newton Step 2: Find Work Work = Force × Height = 490 × 5 = 2450 Joule Step 3: Find Power Power = work/time = 2450/25 = 98 watt"
+  },
+  {
+    "id": 90,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 26/11/2025 (Shift-02)",
+    "question": "What is the relationship between thrust and pressure for a given area?",
+    "options": [
+      "Thrust = Pressure – Area",
+      "Pressure = Thrust + Area",
+      "Pressure = Thrust / Area",
+      "Thrust = Pressure / Area"
+    ],
+    "answer": "c",
+    "explanation": "The total force acting perpendicular to the surface of an object is called thrust, and this thrust acting per unit area is called pressure. Its mathematical relationship is P = T/A, which means that if the area is smaller, the pressure will be greater for the same amount of thrust."
+  },
+  {
+    "id": 91,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-01)",
+    "question": "According to the Law of Periods, the square of a planet’s time period is proportional to:",
+    "options": [
+      "The square of its distance from the sun",
+      "The cube of the semi-major axis of its orbit",
+      "The square root of its orbital radius",
+      "The product of its mass and orbital speed"
+    ],
+    "answer": "b",
+    "explanation": "According to Kepler’s third law of planetary motion (Law of Periods), the square of the time period of revolution of a planet (T2) around the Sun is directly proportional to the cube of the semi- major axis of its orbit (r3). Mathematically, it is expressed as T2 ∝ r3, which means that as the distance from the Sun increases, the period of revolution of the planet also increases."
+  },
+  {
+    "id": 92,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-03)",
+    "question": "Read the following statements carefully: Statement I: A pressure cooker operates by decreasing the pressure inside, which lowers the boiling point of water. Statement II: Food cooks faster in a pressure cooker because the higher pressure allows water to boil at a temperature above 100°C. Statement III: The superheated steam within the cooker increases the rate of heat transfer to the food, leading to faster cooking. Which of the statements given above is/are correct?",
+    "options": [
+      "Only II and III are correct",
+      "All I, II, and III are correct",
+      "Only I and II are correct",
+      "Only I and III are correct"
+    ],
+    "answer": "a",
+    "explanation": "In a pressure cooker, food is cooked under high pressure and at a high boiling point. Due to the higher boiling point, the pressure inside the cooker increases, and water boils at 121°C instead of 100°C, which provides more heat for cooking food. Due to the higher temperature, food cooks about 70% faster compared to an open vessel."
+  },
+  {
+    "id": 93,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 19/11/2025 (Shift-01)",
+    "question": "Which of the following is an example of cooling due to evaporation? I. Pouring of acetone on palm. II. After a sunny day sprinkling water on roof.",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "During evaporation, the particles of a liquid absorb energy (heat) from their surroundings or the surface, which leads to a fall in temperature of the surface and causes a cooling effect. • When acetone is poured on the palm or water is sprinkled on the roof, the particles evaporate by absorbing heat from the surface, resulting in a cooling effect."
+  },
+  {
+    "id": 94,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 19/11/2025 (Shift-03)",
+    "question": "Which of the following statements about the state of substances is correct?",
+    "options": [
+      "Pressure alone determines whether a substance is a solid, liquid, or gas.",
+      "Temperature alone determines the state of a substance.",
+      "Both pressure and temperature influence the state of a substance.",
+      "State changes are unaffected by pressure and temperature."
+    ],
+    "answer": "c",
+    "explanation": "The state of a substance (solid, liquid, gas) does not depend on pressure alone or temperature alone. • Increasing or decreasing the temperature changes the kinetic energy of the particles, which can change the state (e.g., Ice → Water →Steam). • A change in pressure also affects the change of state, especially in gases and under high-pressure conditions. Therefore, the state of a substance is affected by both pressure and temperature."
+  },
+  {
+    "id": 95,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 21/11/2025 (Shift-02)",
+    "question": "Why does a matchstick catch fire when struck against a rough surface?",
+    "options": [
+      "Because it contains petrol",
+      "Because friction produces heat",
+      "Because the stick is hollow",
+      "Because it absorbs moisture"
+    ],
+    "answer": "b",
+    "explanation": "• When a matchstick is rubbed against a rough surface, heat is generated due to friction. • This heat raises the temperature of the inflammable chemicals (such as phosphorus and potassium chlorate) present on the matchstick to their ignition temperature."
+  },
+  {
+    "id": 96,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-03)",
+    "question": "Match the column:",
+    "options": [
+      "A – 3, B – 2, C – 1",
+      "A – 2, B – 3, C – 1",
+      "A – 1, B – 2, C – 3",
+      "A – 3, B – 1, C – 2"
+    ],
+    "answer": "a",
+    "explanation": "Column A (Type Column B (Mobile Charge of Conductor) Carriers) A. Metal 1. Positive and negative ions B. Ionised gas 2. Electrons and positively charged ions C. Electrolyte 3. Electrons"
+  },
+  {
+    "id": 97,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-01)",
+    "question": "Metanil yellow, a non-permitted dye, is often used to adulterate turmeric. Which chemical test can confirm its presence?",
+    "options": [
+      "Adding vinegar and looking for bubbles",
+      "Alcohol and hydrochloric acid test yielding pink color",
+      "Boiling in water and observing sediment",
+      "Mixing with saltwater and checking for layers"
+    ],
+    "answer": "b",
+    "explanation": "• To test the purity of turmeric, mix turmeric and alcohol in a glass container and add a few drops of hydrochloric acid. • If the colour turns pink or violet, it indicates that harmful metanil yellow has been added."
+  },
+  {
+    "id": 98,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-01)",
+    "question": "Why is fiberglass preferred over metal for making high jump bars?",
+    "options": [
+      "Metal is too flexible for accurate performance",
+      "Fibreglass is light, flexible, and safer on impact",
+      "Metal bends permanently; fibreglass is rigid",
+      "Fibreglass is cheaper and easier to shape"
+    ],
+    "answer": "b",
+    "explanation": "• The high jump bar should be light, flexible, and safe so that when an athlete falls after touching it, there is no risk of injury. • Fiberglass fulfills all these requirements: it is light, flexible, and safe upon impact/collision."
+  },
+  {
+    "id": 99,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-01)",
+    "question": "The forces of attraction between the particles are maximum in____ and minimum in_____.",
+    "options": [
+      "solids, gases",
+      "gases, liquid",
+      "solids, liquid",
+      "gases, solids"
+    ],
+    "answer": "a",
+    "explanation": "• Among the states of matter, intermolecular forces of attraction are strongest in solids because their particles are very close to each other and are arranged in a fixed order. • In contrast, the force of attraction between particles of a gas is minimum (negligible), due to which they can move freely in any direction and have no definite shape or volume."
+  },
+  {
+    "id": 100,
+    "subject": "Science",
+    "topic": "Chemical Reactions",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 30/11/2025 (Shift-03)",
+    "question": "What are the end products of pyruvate during the fermentation process?",
+    "options": [
+      "Ethanol and carbon dioxide",
+      "Methanol and nitrogen",
+      "Methanol and hydrogen",
+      "Glucose and helium"
+    ],
+    "answer": "a",
+    "explanation": "• Fermentation is an anaerobic process. • This process takes place in the cytoplasm of the cell, in which glucose is converted into pyruvate, and then this pyruvate is converted into ethanol and carbon dioxide with the help of enzymes. Example- Yeast 6 12 6 2 5 2 Yeast C H O 2C H OH 2CO → +"
+  },
+  {
+    "id": 101,
+    "subject": "Science",
+    "topic": "Chemical Reactions",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 30/07/2025 (Shift-02)",
+    "question": "What is the main cause of acid rain?",
+    "options": [
+      "Carbon monoxide and methane",
+      "Sulfur dioxide and nitrogen oxides",
+      "Chlorofluorocarbons (CFCs)",
+      "Lead and mercury compounds"
+    ],
+    "answer": "b",
+    "explanation": "• Acid rain is an environmental problem primarily caused by sulfur dioxide (SO2) and nitrogen oxides (NOx) gases produced from the burning of fossil fuels (coal, oil). • These pollutants react with oxygen and water in the atmosphere to form sulfuric acid (H2SO4) and nitric acid (HNO3), which fall to the ground as rain, fog, or ssnow."
+  },
+  {
+    "id": 102,
+    "subject": "Science",
+    "topic": "Chemical Reactions",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-02)",
+    "question": "Which of the following simple household methods can detect the presence of chalk powder in adulterated wheat flour?",
+    "options": [
+      "Mixing with vinegar to observe fizzing reaction",
+      "Adding iodine solution to observe color change",
+      "Heating over flame to detect odor",
+      "Soaking in alcohol to dissolve the chalk"
+    ],
+    "answer": "a",
+    "explanation": "• Chalk powder contains calcium carbonate (CaCO3). • When vinegar (acid) is added to chalk, a chemical reaction takes place and carbon dioxide (CO3) gas is released. • Due to the release of this gas, bubbles or foam are seen forming."
+  },
+  {
+    "id": 103,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-02)",
+    "question": "Which of the following statement is correct regarding fluid friction? I. It is also called a drag. II. It depends on the speed of the object with respect to the fluid.",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "Fluid friction is the force that acts against an object during its motion through a fluid. It is also called drag. It depends on the relative speed of the object with respect to the fluid; the higher the speed, the greater the drag will be. Therefore, both statements I and II are correct."
+  },
+  {
+    "id": 104,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 24/11/2025 (Shift-01)",
+    "question": "What is the change of state directly from gas to solid without changing into liquid state known as?",
+    "options": [
+      "Solidification",
+      "Deposition",
+      "Freezing",
+      "Evaporation"
+    ],
+    "answer": "b",
+    "explanation": "Deposition is the process in which a substance changes directly from gas to solid without passing through the liquid state. For example, the conversion of water vapour into ice on a cold surface. Sublimation – in which a solid changes directly into gas."
+  },
+  {
+    "id": 105,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-01)",
+    "question": "Which of the following gas is used in homes for cooking?",
+    "options": [
+      "Argon gas",
+      "Nitrogen gas",
+      "Liquefied petroleum gas",
+      "Oxygen gas"
+    ],
+    "answer": "c",
+    "explanation": "LPG (Liquefied Petroleum Gas) is mainly a mixture of propane and butane. It is used for cooking in households by filling it into cylinders under high pressure. To detect gas leaks, an odorous substance called ethyl mercaptan is added to it."
+  },
+  {
+    "id": 106,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-03)",
+    "question": "Which of the following statement is correct regarding gaseous state? I. In this state, the particles move about randomly at high speed II. Gases are highly compressible",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "In the gaseous state, the movement of particles is extremely fast and random, because gas particles move freely in all directions. • Gases are highly compressible because there is a lot of empty space between their particles, allowing the volume to decrease easily when pressure is applied."
+  },
+  {
+    "id": 107,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 26/07/2025 (Shift-01)",
+    "question": "Which of the following is a practical example of convection?",
+    "options": [
+      "Warming your hands by a fire",
+      "Heat transmission through a vacuum",
+      "Heat transfer in metal.",
+      "Heating water on a stove"
+    ],
+    "answer": "d",
+    "explanation": "Heating water on a stove is an example of Convection. This process mainly occurs in fluids (liquids and gases) rather than solids. In this, the particles of the substance themselves carry heat and move from one place to another. • The transfer of heat in metals is an example of Conduction. • Warming hands near a fire is an example of Radiation, which is the transfer of heat through a vacuum or medium without direct contact."
+  },
+  {
+    "id": 108,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-01)",
+    "question": "Which specific environmental condition found in waterlogged soils of rice paddies and wetlands directly facilitates the significant microbial production of methane, a potent greenhouse gas?",
+    "options": [
+      "Frequent soil tilling",
+      "High levels of dissolved oxygen",
+      "Low soil temperatures",
+      "Anaerobic (oxygen-depleted) condi tions"
+    ],
+    "answer": "d",
+    "explanation": "In paddy fields or wetlands, due to waterlogging, the soil becomes anaerobic (oxygen-deficient). In such conditions, methanogenic archaea are active, which decompose organic matter and release methane (CH4). Methane is a potent greenhouse gas."
+  },
+  {
+    "id": 109,
+    "subject": "Science",
+    "topic": "Properties of Matter",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "Which of the following is a monatomic gas?",
+    "options": [
+      "Chlorine",
+      "Hydrogen",
+      "Xenon",
+      "Oxygen"
+    ],
+    "answer": "c",
+    "explanation": "A monatomic gas is a gas in which each molecule contains only one atom. Ideal gases like helium, argon, and xenon are monatomic gases."
+  },
+  {
+    "id": 110,
+    "subject": "Science",
+    "topic": "Acid and Base",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I,10/12/2025 (Shift-02)",
+    "question": "Which key compound gives garlic its characteristic sharp taste and strong smell?",
+    "options": [
+      "Allyl isothiocyanate",
+      "Allicin",
+      "Capsaicin",
+      "Thymol"
+    ],
+    "answer": "b",
+    "explanation": "The main organosulfur compound found in garlic, allicin (C6H10OS2), is responsible for its characteristic strong odor and pungent taste. • It is formed from a compound called alliin through the action of the enzyme alliinase, and it also possesses antimicrobial and antioxidant properties."
+  },
+  {
+    "id": 111,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-01)",
+    "question": "According to Bohr’s model, what is the significance of an electron transition from a higher energy orbit to a lower energy orbit?",
+    "options": [
+      "The electron’s angular momentum becomes quantized.",
+      "The electron gains energy.",
+      "A photon of energy equal to the energy difference between the orbits is absorbed.",
+      "A photon of energy equal to the energy difference between the orbits is emitted."
+    ],
+    "answer": "d",
+    "explanation": "According to Bohr’s model, when an electron moves from a higher energy outer orbit to a lower energy inner orbit, It releases its excess energy, and this energy is emitted as exactly one photon, equal to the difference between the two energy levels."
+  },
+  {
+    "id": 112,
+    "subject": "Science",
+    "topic": "Acid and Base",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "Which theory, independently presented in 1923, gave rise to the concept of conjugate acid-base?",
+    "options": [
+      "Bronsted-Lowry theory",
+      "Arrhenius theory",
+      "Davy’s theory",
+      "Lewis’s theory"
+    ],
+    "answer": "a",
+    "explanation": "The Brønsted–Lowry theory was introduced in 1923 and led to the concept of conjugate acid–base pairs. • Arrhenius theory explains acids and bases only in aqueous solutions and does not include conjugate pairs. • Davy’s theory is not related to this concept. • Lewis theory is based on electron pair transfer, not proton transfer"
+  },
+  {
+    "id": 113,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 22/09/2025 (Shift-01)",
+    "question": "As we move to higher energy levels (larger ‘n’ values) in the Bohr model of a hydrogen atom, the energy difference between successive levels:",
+    "options": [
+      "Increases continuously",
+      "Decreases continuously",
+      "Remains constant",
+      "First increases, then decreases"
+    ],
+    "answer": "b",
+    "explanation": "According to the Bohr model, the energy levels in a hydrogen atom are given by: n 2 13.6 E eV (n 1,2,3,...) n = − = As n increases, the energy levels become closer to each other. This means that the energy difference between successive levels continuously decreases and becomes almost zero as n \u0003→ ∞"
+  },
+  {
+    "id": 114,
+    "subject": "Science",
+    "topic": "Acid and Base",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "Which substance is commonly used as an acid-base indicator, which turns red in acidic solution and blue in basic solution?",
+    "options": [
+      "Methyl orange",
+      "Litmus paper",
+      "Phenol",
+      "Bromothymol blue"
+    ],
+    "answer": "b",
+    "explanation": "Litmus paper is a common acid–base indicator that turns red in acidic solutions and blue in basic solutions. • Methyl orange turns red in acid and yellow in base, so it is not correct. • Phenol is not used as an indicator. • Bromothymol blue turns yellow in acid and blue in base, not red in acid."
+  },
+  {
+    "id": 115,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 22/09/2025 (Shift-02)",
+    "question": "A key characteristic of nuclear fission is that the total mass of the products is:",
+    "options": [
+      "Greater than the mass of the reactants",
+      "Equal to the mass of the reactants",
+      "Less than the mass of the reactants",
+      "Dependent on the temperature of the reaction"
+    ],
+    "answer": "c",
+    "explanation": "In nuclear fission, a heavy nucleus splits into lighter nuclei and neutrons. The total mass of the products is less than the mass of the original reactants. This mass defect (the decreased mass) is converted into energy according to the equation E = mc2"
+  },
+  {
+    "id": 116,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 22/09/2025 (Shift-03)",
+    "question": "What happens during beta-plus(β+) decay in a nucleus?",
+    "options": [
+      "Proton number decreases by 1, mass number remains unchanged",
+      "Proton number increases by 1, mass number remains unchanged",
+      "Both proton number and mass number decrease",
+      "Proton number decreases by 2, mass number decreases by 4"
+    ],
+    "answer": "a",
+    "explanation": "• In beta-plus (β+) decay, a proton transforms into a neutron, and a positron (+e) and a neutrino (Ve) are emitted. • Consequently, the proton number decreases by 1, and the mass number (A) remains unchanged because the total number of nucleons remains the same."
+  },
+  {
+    "id": 117,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 23/09/2025 (Shift-02)",
+    "question": "Which nuclear decay alters atomic number but not mass?",
+    "options": [
+      "Alpha Decay",
+      "Beta Decay",
+      "Gamma Decay",
+      "Fission"
+    ],
+    "answer": "b",
+    "explanation": "• In beta decay, a neutron changes into a proton or a proton changes into a neutron. This changes the atomic number, but the mass number remains unchanged. • In alpha decay, both the atomic number and mass number decrease. • In gamma decay, only energy is emitted; no change occurs in the numbers."
+  },
+  {
+    "id": 118,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 24/09/2025 (Shift-03)",
+    "question": "Which type of radioactive decay results in an increase in the atomic number of the parent nucleus by one, while keeping the mass number unchanged?",
+    "options": [
+      "Alpha decay",
+      "Beta-minus decay",
+      "Beta-plus decay",
+      "Gamma decay"
+    ],
+    "answer": "b",
+    "explanation": "In beta-minus (β–) decay, a neutron within the nucleus changes into a proton. As a result, the atomic number (Z) increases by one (because a new proton is added), while the mass number (A) remains unchanged (because the total number of neutrons + protons remains the same)."
+  },
+  {
+    "id": 119,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025 (Shift-01)",
+    "question": "When did James Chadwick prove the existence of the neutron, a primary particle without electric charge?",
+    "options": [
+      "1920",
+      "1941",
+      "1932",
+      "1955"
+    ],
+    "answer": "c",
+    "explanation": "British physicist James Chadwick discovered the neutron in 1932 by bombarding beryllium with alpha particles. For this discovery, he was awarded the Nobel Prize in Physics in 1935, which completed the understanding of the atomic model."
+  },
+  {
+    "id": 120,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-01)",
+    "question": "How many carbon molecules does pyruvate has?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "a",
+    "explanation": "One molecule of pyruvate contains 3 carbon atoms, and its chemical formula is C3H4O3. It is the end product formed by the breakdown of a 6-carbon glucose molecule during the process of glycolysis in the cytoplasm."
+  },
+  {
+    "id": 121,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 02/08/2025 (Shift-01)",
+    "question": "What is another use of bleaching powder besides bleaching?",
+    "options": [
+      "Making soap",
+      "Disinfecting drinking water",
+      "Making detergent",
+      "Making paint"
+    ],
+    "answer": "b",
+    "explanation": "Bleaching Powder (CaOCl2) is a multipurpose chemical compound used primarily to disinfect drinking water and for bleaching in the textile and paper industries. It acts as a strong oxidising agent."
+  },
+  {
+    "id": 122,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 29/08/2025 (Shift-03)",
+    "question": "How is the molecular composition of water represented in chemical terms?",
+    "options": [
+      "CO2",
+      "O2",
+      "H2O",
+      "NaCl"
+    ],
+    "answer": "c",
+    "explanation": "• Chemically, the molecular composition of water is represented as H2O a molecule of water consists of two hydrogen atoms and one oxygen atom joined by covalent bonds."
+  },
+  {
+    "id": 123,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-01)",
+    "question": "In August 2025, which technological breakthrough aims to reduce India’s reliance on Chinese specialty fertilisers?",
+    "options": [
+      "Green hydrogen blend",
+      "Water-soluble fertiliser process",
+      "Nano-fertilizer deployment",
+      "Fast-charging lithium battery process"
+    ],
+    "answer": "c",
+    "explanation": "• The objective of the widespread deployment of nano-fertilizers (such as nano urea/nano DAP) is to reduce dependence on the import of water-soluble fertilizers, especially from China. • These fertilizers are more effective in smaller quantities, provide high nutrient use efficiency, and offer cost and import savings. In this direction, the initiatives of organizations like IFFCO have been prominent."
+  },
+  {
+    "id": 124,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-02)",
+    "question": "Narcotics are used as doping in sports. Which of the following is an example of narcotics? I. Morphine II. Methadone",
+    "options": [
+      "Only",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "• Narcotics like morphine and methadone are used as doping in sports. • In the world, the World Anti- Doping Agency (WADA) and in India, the National Anti-Doping Agency (NADA) are working as agencies to check the consumption of narcotics."
+  },
+  {
+    "id": 125,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 26/09/2025 (Shift-02)",
+    "question": "What does an alpha particle represent in the process of alpha decay?",
+    "options": [
+      "Hydrogen",
+      "Helium",
+      "Lithium",
+      "Deuterium"
+    ],
+    "answer": "b",
+    "explanation": "The alpha particle emitted in the process of alpha decay is actually a helium nucleus (He2+) consisting of two protons and two neutrons."
+  },
+  {
+    "id": 126,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-02)",
+    "question": "Which of the following institution has developed a device named “AroTrack”?",
+    "options": [
+      "IIT Bombay",
+      "IISC Bangalore",
+      "IIT Kanpur",
+      "IIT Roorkee"
+    ],
+    "answer": "a",
+    "explanation": "• Researchers at IIT Bombay have developed an essential, compact and portable device named “Aerotrak”. • This sssdevice is capable of detecting harmful aromatic pollutants like benzene, phenol and xylenol in water with speed and accuracy."
+  },
+  {
+    "id": 127,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-01)",
+    "question": "Which of Rutherford’s experimental observations led him to conclude that the positive charge of an atom is concentrated in a very small region?",
+    "options": [
+      "Electrons were found to orbit the nucleus in specific energy levels.",
+      "A very small fraction of a-particles rebounded almost backwards.",
+      "Most a-particles followed a straight path through the gold foil",
+      "A small fraction of a-particles were deflected by small angles."
+    ],
+    "answer": "b",
+    "explanation": "In his experiment, Rutherford observed that a very small fraction of alpha particles rebounded completely (180°) after hitting the gold foil. • This observation proved that the entire positive charge and mass of the atom are concentrated in an extremely small and dense center, this center was called the ‘nucleus’."
+  },
+  {
+    "id": 128,
+    "subject": "Science",
+    "topic": "Atom",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "What is the name of an ion with a charge of -1?",
+    "options": [
+      "Cation",
+      "Monovalent ion",
+      "Polyvalent ion",
+      "Anion"
+    ],
+    "answer": "b",
+    "explanation": "Monovalent means any atom that can form a singsle covalent bond by sharing one electron. If an unknown atom has a charge of -1 or +1, its valency will be one, meaning it can form a single covalent bond with any other atom. Note- This question has been declared invalid by the commission."
+  },
+  {
+    "id": 129,
+    "subject": "Science",
+    "topic": "Micro-Organisms",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-03)",
+    "question": "Find the INCORRECT statement about Gram staining of bacteria.",
+    "options": [
+      "Gram positive bacteria have a thick peptidoglycan layer so they are unable to retain crystal violet",
+      "Gram negative bacteria have thin layer of peptidoglycan and cannot retain the crystal violet",
+      "Grams iodine is responsible for the formation of the crystal-violet- iodine complex",
+      "Gram-negative bacteria appear red/ pink under a microscope"
+    ],
+    "answer": "a",
+    "explanation": "In Gram-positive bacteria, there is a thick layer of peptidoglycan. Due to this thickness, they are able to strongly retain the crystal violet (purple color). In the given option, the word “unable” is written; therefore, this statement is incorrect regarding the Gram staining of bacteria."
+  },
+  {
+    "id": 130,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 02/08/2025 (Shift-01)",
+    "question": "Which blood cells help in fighting infections in the human body?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "answer": "b",
+    "explanation": "White Blood Cells (Leukocytes) are a vital part of the immune system produced in the bone marrow. They act as the body’s ‘private army’ by destroying bacteria and viruses. The normal range in adults is 4,000 to 11,000 cells per microlitre of blood."
+  },
+  {
+    "id": 131,
+    "subject": "Science",
+    "topic": "Micro-Organisms",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-03)",
+    "question": "Why do single-celled organisms do not need specific organs for taking in food, exchanging gases, or removing wastes?",
+    "options": [
+      "They have complex body structures",
+      "Their entire surface is in contact with the environment",
+      "They have a protective wall around them",
+      "They do not perform these functions"
+    ],
+    "answer": "b",
+    "explanation": "In unicellular organisms, the entire surface of the cell is in direct contact with the environment. Therefore, the intake of food, exchange of gases, and removal of wastes can easily take place through diffusion. Since their body is made up of only a single cell, specialized organs are not required for these functions."
+  },
+  {
+    "id": 132,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-02)",
+    "question": "The cell uses internal compartmen talization to manage its complexity. Which of the following best reflects this idea?",
+    "options": [
+      "Organelles in eukaryotic cells float freely without any specific role.",
+      "Prokaryotic cells use multiple membranes to isolate cell activities.",
+      "Eukaryotic cells have membrane- bound organelles that separate different functions",
+      "All cellular functions occur in the same space without any separation."
+    ],
+    "answer": "c",
+    "explanation": "Eukaryotic cells have membrane- bound organelles. Each organelle (such as the nucleus, mitochondria) has its own specific function. This allows various cellular activities to be carried out efficiently without interfering with one another."
+  },
+  {
+    "id": 133,
+    "subject": "Science",
+    "topic": "Micro-Organisms",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 12/11/2025 (Shift-02)",
+    "question": "What are the temporary finger-like extensions of the cell surface used by Amoeba to take in food called?",
+    "options": [
+      "Flagella",
+      "Cilia",
+      "Vacuoles",
+      "Pseudopodia"
+    ],
+    "answer": "d",
+    "explanation": "Amoeba is a single-celled organism which pushes out finger-like temporary projections from its cell membrane, called pseudopodia. These pseudopodia help in movement and capture food particles by surrounding them to form a ‘food vacuole’."
+  },
+  {
+    "id": 134,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-01)",
+    "question": "Which of the following is not a correct statement regarding vacuoles?",
+    "options": [
+      "Vacuoles are generally larger in animal cells than in plant cells.",
+      "Animal cells usually contain smaller vacuoles compared to plant cells",
+      "In some plant cells, the central vacuole can take up most of the cell’s volume",
+      "Vacuoles serve as storage sacs for both solids and liquids"
+    ],
+    "answer": "a",
+    "explanation": "Vacuoles in plant cells are larger than those in animal cells and can occupy 50% – 90% of the plant cell volume. In animal cells, vacuoles are small and temporary. The primary function of vacuoles is to store nutrients and waste products."
+  },
+  {
+    "id": 135,
+    "subject": "Science",
+    "topic": "Micro-Organisms",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 26/11/2025 (Shift-03)",
+    "question": "Which of the following organisms does NOT use parasitic nutritive strategy?",
+    "options": [
+      "Ticks.",
+      "Lice",
+      "Tapeworm",
+      "Yeast"
+    ],
+    "answer": "d",
+    "explanation": "Yeast is a saprophytic fungus that obtains its nutrition from dead and decaying organic matter instead of living organisms. It breaks down complex sugars using enzymes and converts them into energy (alcohol and CO2), which is called fermentation."
+  },
+  {
+    "id": 136,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 26/09/2025 (Shift-03)",
+    "question": "All eukaryotic cells are supported structurally by an internal network of proteins known as:",
+    "options": [
+      "Cytoskeleton",
+      "Nucleus",
+      "Mitochondria",
+      "Ribosomes"
+    ],
+    "answer": "a",
+    "explanation": "Eukaryotic cells contain a complex network of protein filaments (microtubules, microfilaments, and intermediate filaments) called the cytoskeleton. It provides structural/ mechanical support and a definite shape to the cell and assists in the intracellular transport of organelles."
+  },
+  {
+    "id": 137,
+    "subject": "Science",
+    "topic": "Micro-Organisms",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 26/07/2025 (Shift-01)",
+    "question": "Which of the following organisms does not reproduce through spore formation?",
+    "options": [
+      "Penicillium fungus",
+      "Yeast fungus",
+      "Micro fungus",
+      "Rhizopus fungus"
+    ],
+    "answer": "b",
+    "explanation": "Yeast primarily reproduces through Budding, where a new organism develops from a small bulb-like projection on the cell. Organisms like Penicillium, micro- fungi, and Rhizopus produce Spores, which develop into new individuals under favorable conditions."
+  },
+  {
+    "id": 138,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 13/09/2025 (Shift-02)",
+    "question": "What is the primary function of the Golgi apparatus?",
+    "options": [
+      "ATP production",
+      "Protein modification",
+      "Lipid synthesis",
+      "DNA replication"
+    ],
+    "answer": "b",
+    "explanation": "The primary function of the Golgi apparatus is the modification, sorting, and packaging of proteins, which delivers them to their final destination inside or outside the cell. It is often called the ‘post office’ of the cell."
+  },
+  {
+    "id": 139,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 25/07/2025 (Shift-02)",
+    "question": "What is the role of the ribosome in a cell?",
+    "options": [
+      "Energy production",
+      "Protein synthesis",
+      "Cell division",
+      "Transport of substances"
+    ],
+    "answer": "b",
+    "explanation": "Ribosomes function as the ‘protein factories’ of the cell, where they synthesize proteins from amino acids using genetic information (mRNA). These dense particles are found freely in the cytoplasm or on the surface of the Rough Endoplasmic Reticulum (RER) and are essential for all living cells (prokaryotic and eukaryotic)."
+  },
+  {
+    "id": 140,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-03)",
+    "question": "Which of the following statements about the G0 (G zero phase) phase of the cell cycle is most accurate?",
+    "options": [
+      "DNA synthesis occurs rapidly in cells present in the G0 phase.",
+      "It is the phase where cell division is initiated in cancerous cells.",
+      "It is a temporary quiescent stage where cells exit the cell cycle.",
+      "Cells in G0 actively prepare for DNA replication."
+    ],
+    "answer": "c",
+    "explanation": "In the G0 phase, cells exit the cell cycle and remain living and metabolically active. The G0 phase occurs when the cell becomes mature. Nerve cells and heart cells permanently remain in this stage."
+  },
+  {
+    "id": 141,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-02)",
+    "question": "Which of the following pairs is correctly matched?",
+    "options": [
+      "Plasmolysis-Gain of water by plant cell",
+      "Cell wall Composed mainly of protein",
+      "Cellulose - Provides structural strength to plant cells",
+      "Plasma membrane - Located outside the cell wall"
+    ],
+    "answer": "c",
+    "explanation": "Cellulose provides strength and a definite shape to the cell wall of plants, which enables plants to stand upright. Plasmolysis Shrinkage of the cell due to loss of water. This causes harm to the plant. Cell Wall The outermost and rigid layer of plants and madeup of chitin. P l a s m a Membrane The flexible layer just below the cell wall."
+  },
+  {
+    "id": 142,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-02)",
+    "question": "Arrange these evolutionary events chronologically:",
+    "options": [
+      "B->D->A->C",
+      "A->B->D->C",
+      "D->B->A->C",
+      "B->A->C->D"
+    ],
+    "answer": "a",
+    "explanation": "This sequence shows the chronological order of the evolution of life on Earth: first, prokaryotes originated, some of which performed photosynthesis and accumulated oxygen in the atmosphere; after this, eukaryotes with complex cells evolved, and finally, multicellular organisms were formed from them."
+  },
+  {
+    "id": 143,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 12/09/2025 (Shift-02)",
+    "question": "The function of lysosomes in cells is:",
+    "options": [
+      "Protein synthesis",
+      "Intracellular digestion",
+      "Energy production",
+      "Genetic information storage"
+    ],
+    "answer": "b",
+    "explanation": "Lysosomes are membrane-bound cell organelles that contain hydrolytic (digestive) enzymes. These enzymes perform intracellular digestion by breaking down waste materials, old or damaged organelles, and foreign particles present inside the cell. For this reason, lysosomes are also known as the “Suicide bag” of the cell."
+  },
+  {
+    "id": 144,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-01)",
+    "question": "Which of these biomolecules is an essential component of the plasma membrane?",
+    "options": [
+      "Cellulose",
+      "Phospholipids",
+      "DNA",
+      "Glycogen"
+    ],
+    "answer": "b",
+    "explanation": "The plasma membrane is mainly composed of a phospholipid bilayer, which maintains the structure and selective permeability of the membrane."
+  },
+  {
+    "id": 145,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 26/07/2025 (Shift-02)",
+    "question": "What is the function of the lysosomes in animal cells?",
+    "options": [
+      "Transport proteins within the cell",
+      "Break down waste materials and cellular debris",
+      "Produce ATP through cellular respiration",
+      "Synthesize lipids"
+    ],
+    "answer": "b",
+    "explanation": "Lysosomes are membrane-bound organelles of the cell that contain more than 50 powerful hydrolytic enzymes (digestive enzymes). They are known as the ‘waste disposal system’ or ‘scavengers’ of the cell because they keep the cell clean by digesting worn-out organelles, debris, and foreign bacteria. • If the cell gets damaged, lysosomes may burst and their enzymes digest their own cell; therefore, they are called ‘suicidal bags’ of the cell."
+  },
+  {
+    "id": 146,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-01)",
+    "question": "What is the scientific term for white blood cells?",
+    "options": [
+      "Erythrocytes",
+      "Leucocytes",
+      "Thrombocytes",
+      "Platelets"
+    ],
+    "answer": "b",
+    "explanation": "White blood cells are scientifically called leukocytes, which play a major role in the body’s immunity. Name of Cell Scientific Term White Blood Cell Leukocyte Red Blood Cell Erythrocyte Platelets Thrombocyte"
+  },
+  {
+    "id": 147,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 10/12/2025 (Shift-01)",
+    "question": "Which of the following biomolecules is most abundant in plant cell walls?",
+    "options": [
+      "Cellulose",
+      "Pectin",
+      "Lignin",
+      "Hemicellulose"
+    ],
+    "answer": "a",
+    "explanation": "The most abundant biomolecule found in the plant cell wall is cellulose, which provides structural support and rigidity to plants. It is also the most abundant organic polymer found on Earth, which is formed along with other components like hemicellulose and pectin."
+  },
+  {
+    "id": 148,
+    "subject": "Science",
+    "topic": "Cell",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 22/11/2025 (Shift-01)",
+    "question": "What role do cellular vacuoles play in plant waste management?",
+    "options": [
+      "They facilitate nutrient absorption",
+      "They store waste products",
+      "They assist in photosynthesis",
+      "They help in water transportation"
+    ],
+    "answer": "b",
+    "explanation": "Vacuoles found in plant cells store water, nutrients, and waste products. They protect the cell (detoxification) by keeping waste materials isolated. Vacuoles can occupy up to 80% of the cell’s volume and help keep the plant upright by maintaining pH balance and turgor pressure."
+  },
+  {
+    "id": 149,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 01/08/2025 (Shift-03)",
+    "question": "What is the primary function of the xylem tissue in plants?",
+    "options": [
+      "To transport products of photosynthesis from leaves to other parts of the plant",
+      "To transport water and minerals obtained from the soil",
+      "To provide energy to the plant",
+      "To synthesize glucose"
+    ],
+    "answer": "b",
+    "explanation": "• Xylem is a complex permanent tissue in plants whose main function is to transport water and mineral salts absorbed by the roots to the upper parts of the plant (leaves and stem) against gravity. • It is a ‘unidirectional’ transport system that works through vessels and tracheids."
+  },
+  {
+    "id": 150,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 02/08/2025 (Shift-02)",
+    "question": "Which plant tissue is primarily responsible for forming the hard husk of a coconut?",
+    "options": [
+      "Collenchyma",
+      "Parenchyma",
+      "Sclerenchyma",
+      "Xylem"
+    ],
+    "answer": "c",
+    "explanation": "• The cells of Sclerenchyma tissue are dead, and their cell walls become very thick and hard due to the deposition of lignin. • This tissue provides great strength and mechanical support to plants."
+  },
+  {
+    "id": 151,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 26/11/2025 (Shift-02)",
+    "question": "Vessels are part of which of the following plant tissues? I. Xylem II. Phloem",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "a",
+    "explanation": "• Vessels are the main component of xylem tissue and help transport water and mineral salts from the roots to the top of the plant. • Tracheids, xylem parenchyma, and xylem fibers are also found in the xylem. Ans. (a) 4. Read the statements about connective tissues: 1. Tendons connect muscles to bones and are made of dense regular connective tissue. 2. Ligaments connect bones to bones and are slightly elastic."
+  },
+  {
+    "id": 152,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 19/09/2025 (Shift-03)",
+    "question": "Read the statements about connective tissues: 1. Tendons connect muscles to bones and are made of dense regular connective tissue. 2. Ligaments connect bones to bones and are slightly elastic. 3. Cartilage contains calcium salts and is harder than bone.",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 2 and 3 are correct",
+      "Only 1 and 3 are correct",
+      "1, 2 and 3 are correct"
+    ],
+    "answer": "a",
+    "explanation": " Tendons connect muscles to bones and they are made of dense regular connective tissue.  Ligaments connect bones to bones and they are somewhat elastic.  Cartilage has very little calcium salts and is not hard like bone, but is flexible."
+  },
+  {
+    "id": 153,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 26/11/2025 (Shift-01)",
+    "question": "Which of the following waste product in stored in old xylem of plants?",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "Plants store their waste products, such as resins and gums, in the old, dead xylem (heartwood) of their stems. Besides keeping the tree free from waste, this process provides protection to the wood from insects, fungi, and environmental damage, making it even stronger and more durable."
+  },
+  {
+    "id": 154,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-03)",
+    "question": "What of the following statement is correct regarding phloem of a plant? 1. The translocation in phloem is achieved by utilizing energy 2. Material are transferred into phloem tissue using energy from ATP",
+    "options": [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": "c",
+    "explanation": "In plants, phloem tissue uses active transport for the translocation of food, which consumes energy in the form of ATP. When food is transferred into the phloem using the energy of ATP, the osmotic pressure increases, which causes the food to move towards areas of lower pressure within the tissue."
+  },
+  {
+    "id": 155,
+    "subject": "Science",
+    "topic": "Tissue",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-03)",
+    "question": "Which of the following is a characteristic feature of meristematic tissues in plants?",
+    "options": [
+      "Large vacuoles and thick cell walls",
+      "Absence of nucleus and presence of lignified walls",
+      "Actively dividing cells with dense cytoplasm and prominent nuclei",
+      "Dead cells that provide mechanical support"
+    ],
+    "answer": "c",
+    "explanation": "The cells of meristematic tissue are always actively dividing. They have dense cytoplasm, a large and distinct nucleus, and a very thin cell wall These cells lack vacuoles because their main function is not to store energy or food, but to continuously increase the length and width of plants through cell division."
+  },
+  {
+    "id": 156,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 29/11/2025 (Shift-03)",
+    "question": "Which of the following sense is detected by gustatory receptors?",
+    "options": [
+      "Sight",
+      "Smell",
+      "Taste",
+      "Hearing"
+    ],
+    "answer": "c",
+    "explanation": "Gustatory receptors are primarily located on the surface of our tongue. They detect chemicals present in food and help us perceive taste. These receptors send information about tastes like sweet, sour, bitter, and salty to the brain through nerve signals."
+  },
+  {
+    "id": 157,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-03)",
+    "question": "Which of the following organ is the longest part of the alimentary canal in the humans?",
+    "options": [
+      "Liver",
+      "Small intestine",
+      "Buccal cavity",
+      "Oesophagus"
+    ],
+    "answer": "b",
+    "explanation": "In humans, the longest part of the alimentary canal is the small intestine. Although it is called the ‘small intestine’, its length is about 6 to 7 metres (20 to 22 feet), which makes it the most extensive part of the entire digestive system."
+  },
+  {
+    "id": 158,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 12/11/2025 (Shift-03)",
+    "question": "Which organ of digestive system secretes the enzyme lipase for digesting emulsified fats in humans?",
+    "options": [
+      "Gall bladder",
+      "Liver",
+      "Pancreas",
+      "Small intestine"
+    ],
+    "answer": "c",
+    "explanation": "In humans, the pancreas primarily secretes pancreatic lipase, which helps in the digestion of emulsified fat in the small intestine by breaking it down into fatty acids and glycerol. • Bile juice only emulsifies fat, whereas lipase performs its actual chemical digestion."
+  },
+  {
+    "id": 159,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-01)",
+    "question": "Read the below statements about the human digestive system: 1. Bile emulsifies fats but does not contain enzymes. 2. Trypsinogen is activated to trypsin in the stomach. 3. Villi in small intestine increase surface area for absorption. Which of the above statements are correct?",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 1 and 3 are correct",
+      "Only 2 and 3 are correct",
+      "1, 2 and 3 all are correct"
+    ],
+    "answer": "b",
+    "explanation": "Bile performs the emulsification of fats, meaning it breaks down large fat globules into smaller droplets so that enzymes like lipase can act easily, even though bile itself contains no digestive enzymes. • Finger-like structures called villi are found on the inner wall of the small intestine, which help in the maximum and rapid absorption of nutrients like glucose, amino acids, fatty acids, etc., by increasing the surface area."
+  },
+  {
+    "id": 160,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-01)",
+    "question": "Among the following organs, which is located on uppermost part of a human body?",
+    "options": [
+      "Buccal Cavity",
+      "Anus",
+      "Bile Duct",
+      "Appendix"
+    ],
+    "answer": "a",
+    "explanation": "The buccal cavity is located at the uppermost part of the human body. It is the part of the body where food is ingested and the action of speaking occurs. The anus is the lowest and final part of the digestive system, through which undigested food (faeces) is expelled from the body. The bile duct is connected to the liver and gallbladder and is located in the middle part of the body. The appendix is a vestigial organ and is located at the beginning of the large intestine. Ans. (a) Respiratory System"
+  },
+  {
+    "id": 161,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 29/11/2025 (Shift-03)",
+    "question": "What structures are provided in the upper part of the respiratory tract to remove germs, dust, and other harmful particles from inhaled air in humans?",
+    "options": [
+      "Alveoli",
+      "Bronchi",
+      "Pleura",
+      "Cilia"
+    ],
+    "answer": "d",
+    "explanation": "Cilia are found in the upper layer of the trachea (windpipe). These are microscopic hair-like structures that help in trapping and removing dust, pathogens, and other harmful particles present in the air. This is a part of the human body’s natural defense system."
+  },
+  {
+    "id": 162,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-02)",
+    "question": "What is the process called when organisms acquire oxygen from outside the body to break down food sources?",
+    "options": [
+      "Respiration",
+      "Digestion",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "answer": "a",
+    "explanation": "The process of breaking down food sources (like glucose) within the cell and taking in oxygen from outside the body to obtain energy from it is called respiration. This process takes place in the mitochondria of cells, where the complete oxidation of food takes place in the presence of oxygen, and carbon dioxide and water are released as by- products."
+  },
+  {
+    "id": 163,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-03)",
+    "question": "How is air initially filtered when it is taken into the human body?",
+    "options": [
+      "By fine hair in the nostrils",
+      "By tonsils in the throat",
+      "By rings of cartilage",
+      "By the lungs"
+    ],
+    "answer": "a",
+    "explanation": "When air enters the human body, it is initially filtered by the fine hair present in the nose. The tonsils in the throat provide protection against bacteria and viruses. The lungs facilitate the exchange of gases at a deeper level. Ans. (a) Circulatory System"
+  },
+  {
+    "id": 164,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-01)",
+    "question": "What term is used for the pressure in the artery of human body during relaxation?",
+    "options": [
+      "Diastolic pressure",
+      "Venous pressure",
+      "Systolic pressure",
+      "Capillary pressure"
+    ],
+    "answer": "a",
+    "explanation": "During rest, when the heart muscles relax and the heart is filling with blood, the minimum pressure in the arteries is called Diastolic Pressure. For a healthy adult, the normal diastolic pressure is approximately 80 mmHg, which represents the lower number in a blood pressure measurement (such as 12 0/80)."
+  },
+  {
+    "id": 165,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - 1,25/11/2025 (Shift-02",
+    "question": "Deoxygenated blood from the body enters the human heart through which of the following chambers?",
+    "options": [
+      "Right atrium",
+      "Right ventricle",
+      "Left atrium",
+      "Left ventricle"
+    ],
+    "answer": "a",
+    "explanation": "Deoxygenated blood from various parts of the body first enters the right atrium of the heart through the vena cava. From there, it passes through the tricuspid valve into the right ventricle, where it is pumped to the lungs for purification."
+  },
+  {
+    "id": 166,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-03)",
+    "question": "Which of the following statement is correct regarding blood vessels?",
+    "options": [
+      "Arteries are the vessels which carry blood away from the heart to various organs of the body.",
+      "Veins collect the blood from heart and spread it to different organs.",
+      "Arteries have capillaries to prevent backflow of blood.",
+      "The smallest vessels have walls which are one-cell thick and are called veins."
+    ],
+    "answer": "a",
+    "explanation": "Arteries are the blood vessels that carry oxygen-rich blood from the heart to various parts of the body. • Veins bring blood from the organs towards the heart, rather than from the heart to the organs. • Capillaries are not for stopping blood flow, but for the exchange of substances between arteries and veins. • The vessels that are as thin as a single cell are called capillaries, not veins."
+  },
+  {
+    "id": 167,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 20/11/2025 (Shift-02)",
+    "question": "Why does the human heart has different chambers?",
+    "options": [
+      "To regulate body temperature",
+      "To pump blood to different organs",
+      "To prevent the mixing of oxygen- rich blood with carbon dioxide-rich blood",
+      "To store blood"
+    ],
+    "answer": "c",
+    "explanation": "The human heart has four chambers, two atria (singular: atrium) and two ventricles. Its primary purpose is to keep oxygen-rich blood and carbon dioxide-rich blood separate. • This ensures a constant supply of oxygenated blood to the body organs and prevents the mixing of blood, making the circulation efficient."
+  },
+  {
+    "id": 168,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-02)",
+    "question": "Carbon dioxide is transported to the lungs from all parts of the body through _______ in humans.",
+    "options": [
+      "Sweat",
+      "Mucus",
+      "Blood",
+      "Lymph"
+    ],
+    "answer": "c",
+    "explanation": "Carbon dioxide is produced as a waste product in the cells during cellular respiration. It reaches the lungs from the body tissues through the blood (mainly in the form of bicarbonate ions). • In the lungs, it enters the lungs from the capillaries around the alveoli (Alveoli) by diffusion and is finally expelled from the body by the respiratory process of exhalation."
+  },
+  {
+    "id": 169,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-02)",
+    "question": "Why do arteries have thick , elastic walls in human body?",
+    "options": [
+      "To accommodate high blood pressure",
+      "To prevent blood clotting",
+      "To facilitate nutrient exchange",
+      "To store oxygen"
+    ],
+    "answer": "a",
+    "explanation": "The walls of arteries are thick and elastic so that they can withstand and adjust to the high-pressure blood coming from the heart. • Arteries carry blood directly from the heart to various parts of the body; therefore, the blood pressure in them is high. • The exchange of nutrients and gases does not occur in arteries, but in capillaries."
+  },
+  {
+    "id": 170,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-01)",
+    "question": "In humans, what is the value of normal systolic and diastolic blood pressure respectively?",
+    "options": [
+      "75 mm Hg and 60 mm Hg respectively",
+      "80 mm Hg and 70 mm Hg respectively",
+      "100 mm Hg and 95 mm Hg respectively",
+      "120 mm Hg and 80 mm Hg respectively"
+    ],
+    "answer": "d",
+    "explanation": "In a healthy adult human, the normal systolic blood pressure is 120 mmHg and diastolic blood pressure is 80 mmHg. • Systolic pressure represents the maximum pressure in the arteries during the contraction of the heart, while diastolic pressure measures the minimum pressure when the heart is in a state of rest between beats."
+  },
+  {
+    "id": 171,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 12/11/2025 (Shift-03)",
+    "question": "Which of the following statement is correct regarding haemoglobin in humans? I. In humans it is the respiratory pigment II. It has very low affinity for oxygen",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "a",
+    "explanation": "Haemoglobin is the main respiratory pigment in humans that is found in the red blood cells and carries oxygen from the lungs to the tissues of the body. • Haemoglobin has a very high affinity for oxygen, due to which it combines with oxygen to form ‘oxyhaemoglobin’."
+  },
+  {
+    "id": 172,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-02)",
+    "question": "Which of the following is the correct sequence of blood flow through heart chambers?",
+    "options": [
+      "Right atrium → Right ventricle → Left atrium → Left ventricle",
+      "Left atrium → Left ventricle → Right atrium → Right ventricle",
+      "Right ventricle → Right atrium → Left ventricle → Left atrium",
+      "Left ventricle → Left atrium → Right ventricle → Right atrium"
+    ],
+    "answer": "a",
+    "explanation": "The flow of blood in the heart takes place in a specific direction: first, deoxygenated blood from the body enters the right atrium, then goes into the right ventricle. • After being oxygenated by the lungs, the blood enters the left atrium and is finally pumped to the entire body through the left ventricle."
+  },
+  {
+    "id": 173,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 21/11/2025 (Shift-01)",
+    "question": "What is the other name of the tissue fluid in human body?",
+    "options": [
+      "Sweat",
+      "Urine",
+      "Lymph",
+      "Mucus"
+    ],
+    "answer": "c",
+    "explanation": "Tissue fluid is also called lymph in the human body. It is the fluid found between cells, having leaked out of blood capillaries, and helps in the transport of nutrients and wastes. Would you like me to translate more biology concepts or explain the difference between blood and lymph as per the NCERT syllabus? Ans. (c) Nervous System"
+  },
+  {
+    "id": 174,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-03)",
+    "question": "Which of the following organs is part of the central nervous system in humans? I. Heart II. Spinal cord",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "b",
+    "explanation": "In humans, the central nervous system is primarily composed of the brain and spinal cord, which function to receive information from the entire body and process it. • The heart is not a part of this system; rather, it is the main organ of the circulatory system, which is controlled by the autonomous nervous system."
+  },
+  {
+    "id": 175,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 25/09/2025 (Shift-01)",
+    "question": "Which category of prohibited substances in sports includes drugs that increase alertness and reduce fatigue?",
+    "options": [
+      "Anabolic Agents",
+      "Peptide Hormones",
+      "Beta-2 Agonists",
+      "Stimulants"
+    ],
+    "answer": "d",
+    "explanation": "This is a category of drugs that directly affects the central nervous system. They increase alertness in athletes, reduce fatigue, and improve concentration. According to the World Anti-Doping Agency (WADA) Prohibited List, the use of these drugs is strictly forbidden ‘in-competition’ because they enhance performance unfairly."
+  },
+  {
+    "id": 176,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 15/09/2025 (Shift-03)",
+    "question": "Which part of the human brain regulates the circadian rhythm?",
+    "options": [
+      "Cerebellum",
+      "Hypothalamus",
+      "Medulla oblongata",
+      "Thalamus"
+    ],
+    "answer": "b",
+    "explanation": "The human body has an internal biological clock called the circadian rhythm, which is controlled by the Suprachiasmatic Nucleus (SCN) located in the hypothalamus. Based on light signals received from the eyes, the SCN synchronizes the day-night cycle, through which the sleep-wake cycle, hormone secretion, and daily biological activities of the body are regulated."
+  },
+  {
+    "id": 177,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-01)",
+    "question": "Involuntary actions like salivation and vomiting are regulated by which specific part of the hind-brain?",
+    "options": [
+      "Cerebrum",
+      "Pons",
+      "Medulla",
+      "Hypothalamus"
+    ],
+    "answer": "c",
+    "explanation": "All vital involuntary actions such as salivation, vomiting, blood pressure, and swallowing are controlled by the Medulla Oblongata of the hindbrain. It is the lowest part of the brain that is connected to the spinal cord and also regulates life- sustaining systems of the body like heart rate and respiration."
+  },
+  {
+    "id": 178,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 25/11/2025 (Shift-02)",
+    "question": "What is the term used to describe how the brain interprets the frequency of an emitted sound?",
+    "options": [
+      "Tone",
+      "Wavelength",
+      "Frequency",
+      "Pitch"
+    ],
+    "answer": "d",
+    "explanation": "The interpretation of the frequency of sound by the brain is called pitch, which determines how ‘shrill’ or ‘flat’ a sound is. Sounds with high frequency have high pitch (such as the chirping of birds), while sounds with low frequency have low pitch (such as the roar of a lion)."
+  },
+  {
+    "id": 179,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-02)",
+    "question": "Which of the following part of brain has separate areas specialized for hearing, smell, sight, etc.?",
+    "options": [
+      "Fore brain",
+      "Mid brain",
+      "Hind brain",
+      "Spinal cord"
+    ],
+    "answer": "c",
+    "explanation": "The most complex and specialized part of the brain is the forebrain. It includes the cerebrum, which is divided into different regions for specific functions. Midbrain: It controls the size of the pupils and visual and auditory reflex actions of the head and neck. Hindbrain: It controls involuntary actions like blood pressure, respiration, vomiting, and maintains the balance of the body. Spinal Cord: It is the pathway for signals coming to and from the brain and is primarily the center for immediate reflex actions (such as pulling the hand back when it is burnt)."
+  },
+  {
+    "id": 180,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 30/11/2025 (Shift-02)",
+    "question": "In which direction does the electrical impulse travel in a nerve cell of an animal after being created?",
+    "options": [
+      "From the dendrite to the cell body, then along the axon",
+      "From the axon to the dendrite",
+      "From the cell body to the axon",
+      "From the synapse to the muscle cells"
+    ],
+    "answer": "a",
+    "explanation": "In a nerve cell, the electrical impulse always travels from the dendrite to the cell body (cyton), and then through the axon to its end. This direction ensures that the message reaches the synapse to signal the next cell or organ."
+  },
+  {
+    "id": 181,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I,10/12/2025 (Shift-02)",
+    "question": "Read the below statements about synaptic transmission: 1. Synaptic cleft is the gap between two neurons. 2. Neurotransmitters are released from presynaptic terminals. 3. Axon hillock receives impulses from the next neuron.",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 1 and 3 are correct",
+      "Only 2 and 3 are correct",
+      "1, 2 and 3 all are correct"
+    ],
+    "answer": "a",
+    "explanation": "In synaptic transmission, statements 1 and 2 are correct, because the synaptic cleft is the gap between two neurons and neurotransmitters are released from the pre-synaptic terminals. • Statement 3 is incorrect because the axon hillock generates the impulse, it does not receive it; the next neuron receives the impulse through the post-synaptic membrane. Ans. (a) Excretory System"
+  },
+  {
+    "id": 182,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-02)",
+    "question": "In the initial filtrate of the kidney, which of the following substance is selectively re-absorbed as the urine flows along the tube in a human kidney? I. Glucose II. Amino acids",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "The initial filtrate formed in the human kidney also contains many useful substances. • Glucose is an essential nutrient; therefore, it is selectively reabsorbed back into the blood. • Amino acids are also very essential for the body; hence, they are also completely reabsorbed. • Therefore, both glucose and amino acids are reabsorbed before moving further into the urinary tubule."
+  },
+  {
+    "id": 183,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-01)",
+    "question": "Which of the following organ is part of excretory system in human body? I. A pair of ureters II. A urethra",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "• The human excretory system includes kidneys, ureters, urinary bladder, and urethra. • A pair of ureters carries urine from the kidneys to the urinary bladder, and the urethra functions to expel urine from the urinary bladder out of the body; therefore, both organs are part of the excretory system."
+  },
+  {
+    "id": 184,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 14/11/2025 (Shift-03)",
+    "question": "What is the primary function of an artificial kidney for humans?",
+    "options": [
+      "To produce urine",
+      "To remove nitrogenous waste products from the blood",
+      "To filter glucose from the blood",
+      "To increase blood pressure"
+    ],
+    "answer": "b",
+    "explanation": "• The primary function of an artificial kidney for humans is to remove nitrogenous waste products from the blood. An artificial kidney is used when the kidneys are unable to function properly. • This process is called dialysis, in which waste products such as urea and creatinine are removed from the blood. Ans. (b) Reproductive System"
+  },
+  {
+    "id": 185,
+    "subject": "Science",
+    "topic": "Human Physiology",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-01)",
+    "question": "Which of the following correctly represents the chronological order of human development during gestation?",
+    "options": [
+      "Embryo → Zygote → Fetus",
+      "Fetus → Embryo → Zygote",
+      "Zygote → Embryo → Fetus",
+      "Zygote → Fetus → Embryo"
+    ],
+    "answer": "c",
+    "explanation": "• The first single cell formed by the fusion (fertilisation) of the sperm and ovum is called a zygote, which contains the genetic information of both parents. • The stage after fertilisation up to about 8 weeks of cell division is called the embryo, in which the early development of organs begins. • The developed stage after 8 weeks, in which the organs become clearly visible and which continues until birth, is called the foetus."
+  },
+  {
+    "id": 186,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 29/08/2025 (Shift-03)",
+    "question": "Which plant part carries out the process of photosynthesis?",
+    "options": [
+      "Root",
+      "Stem",
+      "Flower",
+      "Leaf"
+    ],
+    "answer": "d",
+    "explanation": "Different parts of a plant perform specific functions for survival and growth. Leaves prepare food through photosynthesis using chlorophyll. Roots absorb water and minerals from the soil. The stem provides support and transports nutrients, while flowers assist in reproduction and seed formation through pollination."
+  },
+  {
+    "id": 187,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC PHASE Xlll 29/07/2025 (shift-02)",
+    "question": "What is the term used for the process of evaporation of water through the leaves of plants?",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Fermentation"
+    ],
+    "answer": "b",
+    "explanation": "When excess water absorbed by the roots of plants evaporates as vapor through tiny pores (stomata) present on the surface of the leaves, it is called transpiration. • This process helps in keeping the plants cool and assists in pulling nutrients from the soil up to the leaves."
+  },
+  {
+    "id": 188,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-01)",
+    "question": "Sequence the following stages of cellular respiration:",
+    "options": [
+      "2-4-3-1",
+      "1-2-3-4",
+      "4-2-3-1",
+      "3-2-1-4"
+    ],
+    "answer": "a",
+    "explanation": "The sequential process of cellular respiration occurs as follows: First, glycolysis takes place, in which glucose is broken down into pyruvate. After this, pyruvate is converted into acetyl-CoA through pyruvate oxidation. • Then, energy-rich molecules are formed in the Krebs cycle, and finally, the maximum amount of ATP is produced in the electron transport chain. Therefore, the correct sequence is 2-4- 3-1."
+  },
+  {
+    "id": 189,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 17/09/2025 (Shift-01)",
+    "question": "The final electron acceptor in aerobic respiration is oxygen Which of the above statements is/are correct?",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 2 and 3 are correct",
+      "Only 1 and 3 are correct",
+      "1, 2 and 3 all are correct"
+    ],
+    "answer": "b",
+    "explanation": "Glycolysis does not occur in the mitochondria; rather, it takes place in the cytoplasm. Therefore, statement 1 is incorrect. • The Krebs cycle (Citric Acid Cycle) occurs in the matrix of the mitochondria, where the complete oxidation of pyruvate takes place to produce energy-rich molecules (NADH, FADH2). • In the Electron Transport Chain (ETC) of aerobic respiration, oxygen acts as the final electron acceptor and combines with electrons and protons to form water (H2O). • In the process of complete aerobic respiration, approximately 36-38 ATP energy molecules are obtained from one molecule of glucose."
+  },
+  {
+    "id": 190,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 22/11/2025 (Shift-03)",
+    "question": "How does auxin affect the growth of the plant in response to light?",
+    "options": [
+      "It causes all cells to grow equally",
+      "It stimulates cells on the light side to grow longer",
+      "It inhibits growth on the shady side",
+      "It stimulates cells on the shady side to grow longer"
+    ],
+    "answer": "d",
+    "explanation": "Auxin is a plant hormone that regulates cell differentiation and elongation (growth in length). • In response to the direction of light, auxin accumulates in the shaded side of the plant, causing the cells in that area to grow longer. • Due to this process, the plant bends toward the light (phototropism) and grows in the direction of the light source."
+  },
+  {
+    "id": 191,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 17/11/2025 (Shift-03)",
+    "question": "Which type of reactions are driven by the energy provided by ATP?",
+    "options": [
+      "Neutral reactions",
+      "Redox reactions",
+      "Endothermic reactions",
+      "Exothermic reactions"
+    ],
+    "answer": "c",
+    "explanation": "ATP (Adenosine Triphosphate) is the energy currency of the cell. The energy obtained from it is used to drive endothermic reactions, which require energy. In contrast, exothermic reactions release energy themselves and do not require ATP. Ans. (c) 6. Read the following statements about aerobic respiration: 1. Glycolysis occurs in the mitochondria 2. Kreb’s cycle occurs in the mitochondrial matrix"
+  },
+  {
+    "id": 192,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 26/09/2025 (Shift-01)",
+    "question": "Which of the following statements is INCORRECT regarding plants?",
+    "options": [
+      "Roots take water from the soil",
+      "Phloem tubes are specialized for water transport",
+      "Chlorophyll absorbs light",
+      "Stomata help in gaseous exchange"
+    ],
+    "answer": "b",
+    "explanation": "In plants, the transport of water and minerals takes place through xylem, and not through phloem. • The function of phloem is to transport food (food prepared through photosynthesis)."
+  },
+  {
+    "id": 193,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 12/09/2025 (Shift-01)",
+    "question": "Which pathway in cellular respiration generates the most ATP?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Fermentation"
+    ],
+    "answer": "c",
+    "explanation": "During cellular respiration, the maximum amount of ATP (approximately 32-34 ATP) is produced during the electron transport chain, because in this stage, the energy obtained from NADH and FADH2 is utilized most effectively and efficiently through oxidative phosphorylation."
+  },
+  {
+    "id": 194,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 12/12/2025 (Shift-02)",
+    "question": "Which pigment allows plants to absorb light mainly in the blue and red wavelengths?",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Anthocyanins"
+    ],
+    "answer": "a",
+    "explanation": "Chlorophyll a is the primary light- sensitive pigment of plants, which absorbs blue (≈430 nm) and red (≈662 nm) light and plays a major role in photosynthesis. Green light is not absorbed, which is why plants appear green. • Chlorophyll b and carotenoids are accessory pigments, while anthocyanins mainly function to provide colour."
+  },
+  {
+    "id": 195,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-03)",
+    "question": "What becomes the major driving force in the movement of water in the xylem during the day?",
+    "options": [
+      "Transpiration pull",
+      "Root pressure",
+      "Active transport",
+      "Osmosis"
+    ],
+    "answer": "a",
+    "explanation": "During the daytime, transpiration from the leaves is higher. This creates an upward suction (pull) in the xylem. This suction pull is the major driving force for the movement of water from the roots to the leaves."
+  },
+  {
+    "id": 196,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER - I, 27/11/2025 (Shift-03)",
+    "question": "What is the transport of soluble products of photosynthesis in a plant known as?",
+    "options": [
+      "Transpiration",
+      "Translocation",
+      "Evaporation",
+      "Diffusion"
+    ],
+    "answer": "b",
+    "explanation": "The process of transporting food (sucrose/sugar) prepared in the leaves to various parts of the plant through the Phloem tissue is called ‘translocation’. It is an active process that uses energy in the form of ATP and primarily works through the pressure flow hypothesis. Ans. (b) 12. Read the below statements about transpiration: 1. Transpiration is highest in dry and windy conditions 2. It helps in the ascent of sap through cohesion-tension"
+  },
+  {
+    "id": 197,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 29/08/2025 (Shift-01)",
+    "question": "Read the following statements about plant hormones: 1. Auxins promote apical dominance. 2. Cytokinins promote senescence. 3. Ethylene accelerates fruit ripening. Which of the above statements are correct?",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 1 and 3 are correct",
+      "Only 2 and 3 are correct",
+      "1, 2 and 3 all are correct"
+    ],
+    "answer": "b",
+    "explanation": "Statements 1 and 3 are correct because auxin promotes growth in the apical part of the plant (apical dominance) and ethylene is a gaseous hormone that helps in the ripening of fruits. • Statement 2 is incorrect because cytokinin helps in delaying senescence (aging or falling of leaves) instead of promoting it, and it induces cell division."
+  },
+  {
+    "id": 198,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 10/12/2025 (Shift-01)",
+    "question": "Given four enzymes: 1. DNA polymerase 2. Ligase 3. Helicase 4. Peptidase. Which are directly involved in DNA replication?",
+    "options": [
+      "1 and 2",
+      "2 and 4",
+      "1, 2 and 3",
+      "3 and 4"
+    ],
+    "answer": "c",
+    "explanation": "In DNA replication, helicase unwinds the DNA helix, DNA polymerase synthesizes the new strand, and ligase joins the Okazaki fragments, whereas peptidase is not involved in this."
+  },
+  {
+    "id": 199,
+    "subject": "Science",
+    "topic": "Plant Physiology",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 17/09/2025 (Shift-03)",
+    "question": "Transpiration always results in wilting Which of the above statements are correct?",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 1 and 3 are correct",
+      "Only 2 and 3 are correct",
+      "1, 2 and 3 are correct"
+    ],
+    "answer": "a",
+    "explanation": "Transpiration is higher in dry and windy conditions because low humidity and increased wind speed cause water to evaporate more quickly from the leaves. Therefore, statement 1 is correct. • Transpiration leads to water loss in leaves, which creates cohesion- tension and pulls the sap upwards from the roots to the leaves. Therefore, statement 2 is correct. • Transpiration does not always cause wilting; it is a necessary natural process for plants. Therefore, statement 3 is incorrect."
+  },
+  {
+    "id": 200,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-01)",
+    "question": "Which of the following statement is correct regarding the plant hormones? I. They help to coordinate growth, development and responses to the environment. II. They are synthesised at places away from where they act and simply diffuse to the area of action.",
+    "options": [
+      "Only I",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "Plant hormones act as chemical messengers to control growth, cell division, and response to environmental cues (such as light or gravity) in plants. • These hormones are generally produced in one part of the plant (such as the root or shoot tip) and then reach the site where they need to show their effect through diffusion or vascular tissues."
+  },
+  {
+    "id": 201,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-03)",
+    "question": "What is the primary function of the growth hormone in humans?",
+    "options": [
+      "Controls metabolism of carbohydrates and fats",
+      "Regulates blood sugar levels",
+      "Maintains body temperature",
+      "Regulates growth and development of the body"
+    ],
+    "answer": "d",
+    "explanation": "Growth hormone is secreted by the pituitary gland located at the base of our brain. Its main function is to promote the development of bones and muscles, ensuring body height and overall development."
+  },
+  {
+    "id": 202,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 26/11/2025 (Shift-01)",
+    "question": "Which of the following enzyme is secreted by the pancreas for digesting emulsified fats in humans?",
+    "options": [
+      "Amylase",
+      "Lipase",
+      "Trypsin",
+      "Lactase"
+    ],
+    "answer": "b",
+    "explanation": "In humans, the lipase enzyme is required to digest emulsified fats. • It is secreted by the pancreas and breaks down fats into glycerol and fatty acids."
+  },
+  {
+    "id": 203,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 24/11/2025 (Shift-03)",
+    "question": "What is the primary function of hydrochloric acid in the stomach of humans?",
+    "options": [
+      "To neutralize the food",
+      "To create an alkaline medium",
+      "To create an acidic medium for enzyme action",
+      "To avoid digestion of proteins"
+    ],
+    "answer": "c",
+    "explanation": "The primary function of hydrochloric acid (HCl) present in the stomach is to create an acidic medium for digestive enzymes. • This acidic environment activates protein-digesting enzymes (such as pepsin), enabling the effective digestion of food. In addition, HCl also helps in destroying harmful microorganisms that enter with the food, thereby keeping the digestive system safe."
+  },
+  {
+    "id": 204,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 24/11/2025 (Shift-01)",
+    "question": "Which of the following endocrine gland releases hormone related to puberty in human females?",
+    "options": [
+      "Ovaries",
+      "Pancreas",
+      "Pineal gland",
+      "Hypothalamus"
+    ],
+    "answer": "a",
+    "explanation": "The ovary is an endocrine gland in females that produces and secretes the hormones estrogen and progesterone related to puberty. • These hormones are essential for the menstrual cycle, development of female characteristics, and reproductive capacity. • The other options are incorrect because the pancreas regulates blood sugar, the pineal gland produces melatonin, and the hypothalamus controls other glands."
+  },
+  {
+    "id": 205,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-02)",
+    "question": "Identify the correct pairing between a plant hormone and its primary physiological function:",
+    "options": [
+      "Gibberellin - Stimulating cell division in roots",
+      "Ethylene - Ripening of fruits",
+      "Cytokinin - Initiating abscission of leaves",
+      "Auxin - Promoting seed dormancy"
+    ],
+    "answer": "b",
+    "explanation": "Plant Correct Function (Primary Function) Hormone Gibberellin Increasing stem length and helping in the germination of seeds Cytokinin Promoting cell division (Cell Division) and delaying ageing Auxin Growth of the upper part of the plant (Apex) and increasing the length of cells A b s c i s i c Acid Causing leaf fall (abscission) & promoting seed dormancy"
+  },
+  {
+    "id": 206,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 31/07/2025 (Shift-02)",
+    "question": "Which of the following combinations correctly matches the vitamin with its function and deficiency disorder?",
+    "options": [
+      "Vitamin A – Promotes calcium absorption – Deficiency causes Scurvy",
+      "Vitamin D – Regulates vision pigments – Deficiency leads to Pellagra",
+      "Vitamin B12 – Aids nerve function and red blood cell formation – Deficiency causes Pernicious anaemia",
+      "Vitamin C – Supports blood clotting – Deficiency leads to Night blindness"
+    ],
+    "answer": "b",
+    "explanation": "Vitamin B: Assists in nerve function and red blood cell formation; its deficiency causes pernicious anaemia. Vitamin A: Promotes healthy vision and immunity; its deficiency causes night blindness. Vitamin D: Promotes absorption of calcium and phosphorus; its deficiency causes rickets. Vitamin C: Helps in tissue repair and collagen formation; its deficiency causes scurvy. Ans. (d) Which of the above statements are correct? SSC CGL TIER - I, 19/09/2025 (Shift-01) (a) Only 1 and 2 are correct (b) Only 2 and 3 are correct (c) Only 1 and 3 are correct (d) 1, 2 and 3 are correct Exp.- Enzymes decrease rather than increase the activation energy, so that the reaction can occur more rapidly. Enzymes are specific due to the configuration of their active site and react only with their specific substrate. Enzyme activity depends on pH and temperature; an enzyme functions optimally only at an appropriate pH and temperature."
+  },
+  {
+    "id": 207,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 13/12/2025 (Shift-01)",
+    "question": "Which of the following is a hallmark symptom of Kwashiorkor?",
+    "options": [
+      "Severe muscle wasting without edema",
+      "Swollen abdomen due to fluid retention",
+      "Excess subcutaneous fat storage",
+      "Hypoglycemia with ketosis"
+    ],
+    "answer": "b",
+    "explanation": "• Kwashiorkor is a form of malnutrition caused by protein deficiency, in which fluid retention (edema) occurs in the body due to the deficiency of albumin. • Because of this, a distended stomach (pot belly) is seen in children, which is its most prominent and specific symptom."
+  },
+  {
+    "id": 208,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 12/12/2025 (Shift-01)",
+    "question": "Which amino acid is considered essential in human diet?",
+    "options": [
+      "Alanine",
+      "Glycine",
+      "Lysine",
+      "Serine"
+    ],
+    "answer": "c",
+    "explanation": "Lysine is an essential amino acid, which cannot be synthesized by the human body; therefore, it must be obtained through the diet.  While alanine, glycine, and serine can be synthesized by the body, hence they are non-essential amino acids."
+  },
+  {
+    "id": 209,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 11/12/2025 (Shift-02)",
+    "question": "Which vitamin is synthesized by intestinal microbiota?",
+    "options": [
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin E",
+      "Vitamin D"
+    ],
+    "answer": "b",
+    "explanation": "Gut microbiota synthesize Vitamin K (specifically K2) in the human large intestine. This vitamin is essential for blood clotting and bone health."
+  },
+  {
+    "id": 210,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 16/09/2025 (Shift-01)",
+    "question": "Which of the following pairs of type of nutrient-nutrient is correctly matched?",
+    "options": [
+      "Micronutrient - Calcium",
+      "Macronutrient - Zinc",
+      "Micronutrient - Boron",
+      "Macronutrient - Iron"
+    ],
+    "answer": "c",
+    "explanation": "Nutrients are of two types: Macronutrients, which the body requires in large quantities (such as calcium, phosphorus, potassium), and micronutrients, which the body requires only in small quantities (such as zinc, iron, boron, manganese)."
+  },
+  {
+    "id": 211,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 09/12/2025 (Shift-02)",
+    "question": "Which enzyme primarily is responsible for joining “Okazaki fragments” during the DNA replication process?",
+    "options": [
+      "DNA polymerase",
+      "DNA ligase",
+      "Helicase",
+      "Primase"
+    ],
+    "answer": "b",
+    "explanation": "DNA ligase is the enzyme that joins together the short, discontinuous DNA fragments (Okazaki fragments) formed on the lagging strand. • It ensures a complete and continuous DNA strand by forming phosphodiester bonds between the fragments. Ans. (b) 10. Read the below statements about enzymes: 1. Enzymes increase activation energy. 2. Enzymes are substrate-specific. 3. Enzyme activity depends on pH and temperature. 07 Protien, vitamin and Mineral"
+  },
+  {
+    "id": 212,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 19/09/2025 (Shift-01)",
+    "question": "Read the below statements about enzymes: 1. Enzymes increase activation energy. 2. Enzymes are substrate-specific. 3. Enzyme activity depends on pH and temperature. Which of the above statements are correct?",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 2 and 3 are correct",
+      "Only 1 and 3 are correct",
+      "1, 2 and 3 are correct"
+    ],
+    "answer": "b",
+    "explanation": "Enzymes decrease rather than increase the activation energy, so that the reaction can occur more rapidly. Enzymes are specific due to the configuration of their active site and react only with their specific substrate. Enzyme activity depends on pH and temperature; an enzyme functions optimally only at an appropriate pH and temperature."
+  },
+  {
+    "id": 213,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 16/09/2025 (Shift-02)",
+    "question": "Which of the below statements on the plant hormones is INCORRECT?",
+    "options": [
+      "Auxins promote growth",
+      "Cytokinins delay aging",
+      "Ethylene promotes seed germination",
+      "Gibberellins promote stem elongation"
+    ],
+    "answer": "c",
+    "explanation": "The primary function of ethylene is fruit ripening and the shedding of leaves (abscission), rather than promoting seed germination. Gibberellin plays a major role in seed germination."
+  },
+  {
+    "id": 214,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 13/09/2025 (Shift-01)",
+    "question": "What is the primary function of telomerase enzyme?",
+    "options": [
+      "DNA replication",
+      "Telomere lengthening",
+      "DNA repair",
+      "RNA transcription"
+    ],
+    "answer": "b",
+    "explanation": "The telomerase enzyme adds telomeres to the ends of chromosomes, which prevents the telomere from shortening during DNA replication. This maintains the stability of chromosomes and extends the lifespan of the cell."
+  },
+  {
+    "id": 215,
+    "subject": "Science",
+    "topic": "Hormones and Enzymes",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025",
+    "question": "Which amino acid is a precursor to serotonin, a neurotransmitter that controls your hunger, sleep, and mood?",
+    "options": [
+      "Isoleucine",
+      "Methionine",
+      "Valine",
+      "Tryptophan"
+    ],
+    "answer": "c",
+    "explanation": "Tryptophan is an essential amino acid that our body cannot produce on its own, so it is important to obtain it through diet. • It helps in the production of serotonin, which is a neurotransmitter and plays an important role in regulating mood, sleep, and overall mental health. • Tryptophan-rich foods: - Dairy products, nuts and seeds, meat and poultry, soy products, eggs; especially egg yolk. Ans. (d) Exp.- Lysine is an essential amino acid, which cannot be synthesized by the human body; therefore, it must be obtained through the diet. • While alanine, glycine, and serine can be synthesized by the body, hence they are non-essential amino acids."
+  },
+  {
+    "id": 216,
+    "subject": "Science",
+    "topic": "Disease, causes and symptoms",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 28/11/2025 (Shift-01)",
+    "question": "The natural host of the Nipah Virus is",
+    "options": [
+      "Mosquitoes",
+      "Fruit Bats",
+      "Pigs",
+      "Sand Flies"
+    ],
+    "answer": "b",
+    "explanation": "Nipah virus (NiV) is a fatal zoonotic virus spread by fruit bats of the Pteropus genus. It spreads to humans and pigs through fruits (such as dates) contaminated with the saliva, urine or excreta of infected bats or through direct contact. It can cause severe respiratory infection and swelling of the brain (encephalitis), with a mortality rate of 40-70%. Ans. (b) 2. Which of the following statements regarding human antibodies is/are accurate? 1. IgG constitutes the largest proportion of antibodies in human blood. 2. IgE plays a key role in allergic responses."
+  },
+  {
+    "id": 217,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 13/12/2025 (Shift-01)",
+    "question": "In Mendelian genetics, what is the expected genotypic ratio in a dihybrid cross F2 generation?",
+    "options": [
+      "1 : 1 : 1 : 1",
+      "9 : 3 : 3 : 1",
+      "3 : 1 : 1 : 3",
+      "2 : 2 : 1 : 1"
+    ],
+    "answer": "c",
+    "explanation": "In a Mendelian dihybrid cross (AaBb × AaBb), the genotypic ratio of the F2 generation is 1 : 2 : 1 (for each gene) and the phenotypic ratio is 9 : 3 : 3 : 1.  This occurs due to the Law of Independent Assortment, where alleles of different genes segregate independently of each other. Ans(b) 2. Which of the following sequences correctly depicts the flow of genetic information? SSC CGL TIER-I, 16/09/2025 (Shift-03) (a) DNA, protein, RNA (b) RNA, DNA, protein (c) DNA, RNA, protein (d) Protein, RNA, DNA Exp.-  The flow of genetic information is from DNA to RNA and then from RNA to protein according to the Central Dogma."
+  },
+  {
+    "id": 218,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 16/09/2025 (Shift-03)",
+    "question": "Which of the following sequences correctly depicts the flow of genetic information?",
+    "options": [
+      "DNA, protein, RNA",
+      "RNA, DNA, protein",
+      "DNA, RNA, protein",
+      "Protein, RNA, DNA"
+    ],
+    "answer": "c",
+    "explanation": "• The flow of genetic information is from DNA to RNA and then from RNA to protein according to the Central Dogma."
+  },
+  {
+    "id": 219,
+    "subject": "Science",
+    "topic": "Disease, causes and symptoms",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 18/09/2025 (Shift-02)",
+    "question": "IgA is primarily located in bodily secretions such as saliva and breast milk.",
+    "options": [
+      "Only 1 and 2 are correct",
+      "Only 2 and 3 are correct",
+      "Only 1 and 3 are correct",
+      "1, 2 and 3 all are correct"
+    ],
+    "answer": "d",
+    "explanation": "IgG (Immunoglobulin G) is the most abundant antibody (approximately 70–75%) found in human blood plasma. IgE (Immunoglobulin E) plays a major role in allergic reactions; it activates mast cells and basophils to secrete chemicals like histamine. • IgA (Immunoglobulin A) is primarily found in secretions of the mucous membrane such as saliva, tears, and breast milk, and provides mucosal immunity."
+  },
+  {
+    "id": 220,
+    "subject": "Science",
+    "topic": "Disease, causes and symptoms",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "Charcot-Marie-Tooth disease is caused by the duplication of the Peripheral Myelin Protein-22 (PMP22) gene on which chromosome?",
+    "options": [
+      "Chromosome 21",
+      "Chromosome 15",
+      "Chromosome 8",
+      "Chromosome 17"
+    ],
+    "answer": "d",
+    "explanation": "• Charcot-Marie-Tooth (CMT) disease type 1A, the most common form of CMT, is caused by duplication of the Peripheral Myelin Protein-22 (PMP22) gene. • This duplication increases the amount of PMP22 protein, which disrupts the structure and function of myelin sheaths in peripheral nerves. • This condition gradually affects the nerves and leads to CMT symptoms such as muscle weakness and sensory problems."
+  },
+  {
+    "id": 221,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 11/12/2025 (Shift-01)",
+    "question": "Which of the following is NOT a nitrogenous base in DNA?",
+    "options": [
+      "Adenine",
+      "Uracil",
+      "Cytosine",
+      "Guanine"
+    ],
+    "answer": "b",
+    "explanation": "DNA contains four nitrogenous bases — Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). Uracil is not found in DNA; it is a nitrogenous base of RNA, where it is present in place of Thymine."
+  },
+  {
+    "id": 222,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 30/07/2025 (Shift-03)",
+    "question": "Which of the following statements about nucleases and DNA polymerase I is INCORRECT?",
+    "options": [
+      "Exonucleases remove the nucleotides from the ends",
+      "Endonucleases cut DNA internally",
+      "DNA Pol I does not have a 5’-to-3’ exonuclease activity",
+      "First polymerase isolated in E. coli was DNA Pol I"
+    ],
+    "answer": "c",
+    "explanation": "This statement is incorrect because DNA Polymerase I (Pol I) actually possesses 5’-to-3’ exonuclease activity, which it utilizes for primer removal and DNA damage repair. • In contrast, most other polymerases (such as Pol III) possess only 3’-to- 5’ proofreading activity and lack the 5’-to-3’ exonuclease capacity."
+  },
+  {
+    "id": 223,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 14/09/2025 (Shift-01)",
+    "question": "The term pleiotropy refers to:",
+    "options": [
+      "One gene affects multiple traits",
+      "Multiple genes affect one trait",
+      "Mutation in one allele",
+      "Gene duplication"
+    ],
+    "answer": "a",
+    "explanation": "Pleiotropy is a condition in which a single gene influences multiple different traits of the body. Example: In sickle cell anemia, a single gene affects several symptoms (blood, bones, pain, etc.)."
+  },
+  {
+    "id": 224,
+    "subject": "Science",
+    "topic": "Protein, vitamin and Mineral",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-I, 14/09/2025 (Shift-03)",
+    "question": "Which biomolecule acts as the primary energy storage in animals?",
+    "options": [
+      "Glycogen",
+      "Starch",
+      "Cellulose",
+      "Sucrose"
+    ],
+    "answer": "a",
+    "explanation": "• Glycogen is the primary energy storage biomolecule in animals. It is stored in the liver and muscles and provides energy by converting into glucose when required."
+  },
+  {
+    "id": 225,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC Stenographer 07/08/2025 (Shift-03)",
+    "question": "In the lac operon model, what is the primary role of the allolactose molecule?",
+    "options": [
+      "It functions as an inducer, binding to the repressor protein and inactivating it.",
+      "It acts as a corepressor, binding with the repressor protein.",
+      "It binds to the promoter to initiate transcription.",
+      "It directly codes for the enzymes involved in lactose metabolism."
+    ],
+    "answer": "a",
+    "explanation": "• In the lac operon model, the main role of the allolactose is as an inducer, which binds to the repressor protein and removes it. • Allolactose binds to the repressor, due to which the repressor moves away from the operator, and RNA polymerase starts transcription of the genes."
+  },
+  {
+    "id": 226,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 29/08/2025 (Shift-02)",
+    "question": "Which of the following methods works primarily by inhibiting microbial growth through low moisture?",
+    "options": [
+      "Refrigeration",
+      "Canning",
+      "Dehydration",
+      "Pasteurization"
+    ],
+    "answer": "c",
+    "explanation": "Dehydration: It prevents the growth of microorganisms by removing moisture from food, ensuring that food items remain preserved for a long time. Refrigeration (Cooling): It slows down the growth of microorganisms by lowering the temperature. Canning: In this process, food is heated in airtight containers to make it bacteria- free and safe. Pasteurization: It is a technique for destroying harmful germs in liquids like milk by heating and then immediately cooling them."
+  },
+  {
+    "id": 227,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 28/07/2025 (Shift-02)",
+    "question": "What term describes animals that regulate their body temperature internally?",
+    "options": [
+      "Ectotherms",
+      "Endotherms",
+      "Amphibians",
+      "Invertebrates"
+    ],
+    "answer": "b",
+    "explanation": "Endotherms: Warm-blooded organisms that maintain a constant internal body temperature. • Ectotherms: Cold-blooded organisms whose body temperature changes according to the external environment. • Amphibians: Organisms that can live both on land and in water. • Invertebrates: Organisms that do not possess a backbone (vertebral column)."
+  },
+  {
+    "id": 228,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XII 26/07/2025 (Shift-02)",
+    "question": "Which branch of geology focuses on the study of fossils and ancient life forms?",
+    "options": [
+      "Petrology",
+      "Mineralogy",
+      "Palaeontology",
+      "Geochronology"
+    ],
+    "answer": "c",
+    "explanation": "Paleontology is the branch of geology and biology that studies the remains and impressions of ancient organisms (fossils) and their evolution. It helps in understanding extinct species, the history of life on Earth, climate change, and geological eras."
+  },
+  {
+    "id": 229,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 25/07/2025 (Shift-03)",
+    "question": "The first peptide to be produced after wounding in the tomato plant is _____",
+    "options": [
+      "Systemin",
+      "Ricin",
+      "Jasmonic acid",
+      "Saicyclic acid"
+    ],
+    "answer": "a",
+    "explanation": "Systemin is the first peptide signal generated at the wound site, which warns the entire plant of an insect attack. • This signal increases the production of protease inhibitors, which starve the insects by inhibiting their digestive power."
+  },
+  {
+    "id": 230,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 26/11/2025 (Shift-02)",
+    "question": "What is the result of the uneven growth of the tendril in response to touch?",
+    "options": [
+      "The tendril extends straight upward",
+      "The tendril circles around the object and clings to it",
+      "The tendril falls off the plant",
+      "The tendril withers away"
+    ],
+    "answer": "b",
+    "explanation": "When a part of a tendril comes in contact with an object, the growth of the part in contact becomes slow, while the part opposite to the object (the outer part) grows very rapidly. • This process is called thigmotropism or ‘touch response’. When the tendril of a climber (such as pea or grape) comes in contact with any support or object, the rate of growth in it changes."
+  },
+  {
+    "id": 231,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 15/11/2025 (Shift-01)",
+    "question": "Which of the following organ can be donated while the donor is alive? I. Part of a liver II. Kidney",
+    "options": [
+      "Only",
+      "Only II",
+      "Both I and II",
+      "Neither I nor II"
+    ],
+    "answer": "c",
+    "explanation": "The liver has the capacity for regeneration, therefore a living donor can donate a part of it. Humans can lead a normal life even with a single kidney, therefore a living donor can also donate a kidney."
+  },
+  {
+    "id": 232,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC CGL TIER - I, 17/09/2025 (Shift-02)",
+    "question": "Which of these is an odd one out?",
+    "options": [
+      "ATP",
+      "Glucose",
+      "DNA",
+      "NADH"
+    ],
+    "answer": "c",
+    "explanation": "ATP, sugar, and NADH are all sources of energy or energy-carrying molecules in the cell, whereas the primary function of DNA is the storage and transmission of genetic information. Therefore, DNA is the odd one out among these."
+  },
+  {
+    "id": 233,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CHSL TIER-I, 13/11/2025 (Shift-01)",
+    "question": "The ‘ossification test’ is used to determine the ______ of a person.",
+    "options": [
+      "Age",
+      "Height",
+      "Weight",
+      "Blood group"
+    ],
+    "answer": "a",
+    "explanation": "• Ossification test is a medical procedure which is used to determine the estimated age of a person. • Anthropometry is used to measure height, a weighing scale is used to measure weight, and an agglutination test is performed to determine blood group."
+  },
+  {
+    "id": 234,
+    "subject": "Science",
+    "topic": "Genetics",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-01)",
+    "question": "What happens during the process of transcription in cells?",
+    "options": [
+      "DNA is replicated into identical copies",
+      "RNA is translated into proteins",
+      "DNA is converted into RNA",
+      "Proteins are folded into functional shapes"
+    ],
+    "answer": "c",
+    "explanation": "Transcription is the process in which the genetic information present in DNA is copied into mRNA. It takes place in the nucleus of the cell so that the DNA’s message can reach the ribosomes to produce proteins."
+  },
+  {
+    "id": 235,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CPO TIER-I, 11/12/2025 (Shift-02)",
+    "question": "Which of the following pairs (Plants- type) is correctly matched?",
+    "options": [
+      "Nepenthes - Parasitic plant",
+      "Cuscuta - Insectivorous plant",
+      "Opuntia - Xerophytic plant",
+      "Utricularia - Epiphytic plant"
+    ],
+    "answer": "c",
+    "explanation": "• Opuntia, commonly known as the prickly pear cactus, is a genus of plants that possesses special adaptations to survive in environments with very little water; therefore, it is called a xerophytic plant."
+  },
+  {
+    "id": 236,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025",
+    "question": "Which endemic species of owl from Central India has been listed as endangered in the IUCN Red List since 2018?",
+    "options": [
+      "Forest Owlet",
+      "Barn Owlet",
+      "Snowy Owl",
+      "Long-eared Owl"
+    ],
+    "answer": "a",
+    "explanation": "The Forest Owlet (Athene blewitti), an endemic species found in the forests of Central India, has been listed as Endangered on the IUCN Red List since 2018. Considered extinct after 1884, this owl was rediscovered in 1997. • It is primarily found in the forests of Madhya Pradesh and Maharashtra, and its population is estimated to be fewer than 1,000."
+  },
+  {
+    "id": 237,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2025",
+    "question": "In what year did Walter Flemming use chromosomes to clearly describe and explain the complete process of mitosis and meiosis?",
+    "options": [
+      "1780",
+      "1901",
+      "1882",
+      "1956"
+    ],
+    "answer": "c",
+    "explanation": "Walther Flemming published his landmark research, including the detailed description of the longitudinal splitting of chromosomes and the coining of the term mitosis, in 1882."
+  },
+  {
+    "id": 238,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 20/01/2025",
+    "question": "In which year did Singer and Nicolson propose the fluid mosaic model? The model focuses on the organization and fluidity of cell membranes.",
+    "options": [
+      "1960",
+      "1972",
+      "1993",
+      "1981"
+    ],
+    "answer": "b",
+    "explanation": "Singer and Nicolson proposed the ‘fluid mosaic model’ for the plasma membrane in 1972, explaining it as a semi-permeable layer consisting of a lipid bilayer and proteins within. • This model describes the cell membrane as a dynamic structure."
+  },
+  {
+    "id": 239,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 28/07/2025 (Shift-03)",
+    "question": "Find the INCORRECT statement regarding the phenomenon of “Allelopathy” in plants.",
+    "options": [
+      "Plants produce chemical compounds that help in growth of the plant",
+      "Chemical compound secreted by the roots of one plant blocks the germination of nearby seeds or inhibits the growth of neighboring plants",
+      "This phenomenon reduces the competition for nutrition",
+      "One of the examples is Black walnut trees."
+    ],
+    "answer": "a",
+    "explanation": "Allelopathy is primarily a negative or defensive process. The chemicals produced in this process do not “help” the growth of other plants; instead, they harm or inhibit them. Its objective is to interfere with the development of other plants so that the main plant can access more resources."
+  },
+  {
+    "id": 240,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-03)",
+    "question": "Which of the following best describes the goal of stem cell therapy in modern medicine?",
+    "options": [
+      "To provide genetic immunity against viruses",
+      "To prevent blood clotting in arteries",
+      "To replace or regenerate damaged tissues or organs",
+      "To stimulate hormonal glands"
+    ],
+    "answer": "c",
+    "explanation": "• The main objective of stem cell therapy is to repair or regenerate damaged organs or diseased tissues of the body using these cells. • Stem cells are the “master cells” of the body that have the unique ability to develop into any specialized type of cell (such as heart, nerve, or blood cells."
+  },
+  {
+    "id": 241,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 06/08/2025 (Shift-03)",
+    "question": "Which of the following is a unique characteristic of sponges (Phylum Porifera)?",
+    "options": [
+      "Water canal system and choanocytes",
+      "Radial symmetry and presence of tentacles",
+      "Jointed appendages and chitinous exoskeleton",
+      "Presence of cnidoblasts for defense"
+    ],
+    "answer": "a",
+    "explanation": "• A canal system is found in organisms of the phylum Porifera, which helps in the circulation of water, food and oxygen through pores. • These contain special “collar cells” called choanocytes which function to capture food, and their body shape is often asymmetrical."
+  },
+  {
+    "id": 242,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC PHASE XIII 24/07/2025 (Shift-02)",
+    "question": "Which of the following statements correctly describes how unicellular organisms obtain their food?",
+    "options": [
+      "All unicellular organisms use a mouth-like structure for food intake",
+      "Unicellular organisms like Amoeba use pseudopodia, while Paramecium uses cilia to direct food into a fixed spot",
+      "Unicellular organisms such as Amoeba and Paramecium absorb food randomly from all over the cell surface.",
+      "Unicellular organisms digest food externally before taking it into their bodies."
+    ],
+    "answer": "d",
+    "explanation": "Amoeba and Paramecium are both unicellular organisms that take in their food in different ways. Amoeba extends pseudopodia (false feet) from its surface to engulf the food (phagocytosis). • On the other hand, Paramecium has cilia (hair-like structures) all over its body, which move the food to a specific spot (cell mouth)."
+  },
+  {
+    "id": 243,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC Stenographer 08/08/2025 (Shift-02)",
+    "question": "Which type of placentation is characterized by the ovules developing on the inner wall of the ovary or on the peripheral part, as seen in mustard and argemone?",
+    "options": [
+      "Parietal",
+      "Free central",
+      "Basa",
+      "Axile"
+    ],
+    "answer": "a",
+    "explanation": "In parietal placentation, ovules develop on the inner wall or periphery of the ovary, and sometimes due to the formation of a false septum, the ovary appears to be bilocular. • This is mainly a characteristic of plants of the family Brassicaceae such as mustard and Arabidopsis."
+  },
+  {
+    "id": 244,
+    "subject": "Science",
+    "topic": "Miscellaneous",
+    "subtopic": "",
+    "exam": "SSC CGL TIER-II 18/01/2026",
+    "question": "Which of the following biological processes explains why human muscles often feel sore or “cramped after a sudden”, intense bout of physical exercise?",
+    "options": [
+      "Depletion of Vitamin C",
+      "Accumulation of Lactic Acid",
+      "Excessive release of Carbon Dioxide",
+      "Accumulation of Ethyl Alcohol"
+    ],
+    "answer": "b",
+    "explanation": "• During heavy physical exercise, when muscles do not get enough oxygen, the process of anaerobic respiration begins to generate energy. • In this process, glucose is not fully broken down, leading to the accumulation of lactic acid in the muscles as a by-product. This acid increases the acidity in the muscles, which causes pain, fatigue, and cramps in the tissues after exercise."
+  }
+]
